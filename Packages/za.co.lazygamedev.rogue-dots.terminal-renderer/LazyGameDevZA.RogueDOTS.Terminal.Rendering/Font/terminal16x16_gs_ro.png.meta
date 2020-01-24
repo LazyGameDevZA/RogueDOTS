@@ -1,0 +1,7027 @@
+fileFormatVersion: 2
+guid: 61a04fb8e2f19034abdaac93b662582d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3612124969606541793
+    second: terminal16x16_gs_ro_0
+  - first:
+      213: -6012797508650165866
+    second: terminal16x16_gs_ro_1
+  - first:
+      213: -7570830426583280892
+    second: terminal16x16_gs_ro_2
+  - first:
+      213: -2536838707199304018
+    second: terminal16x16_gs_ro_3
+  - first:
+      213: 7095012795019242183
+    second: terminal16x16_gs_ro_4
+  - first:
+      213: -8027784976992646903
+    second: terminal16x16_gs_ro_5
+  - first:
+      213: 4618009795265996249
+    second: terminal16x16_gs_ro_6
+  - first:
+      213: -4414306011193471496
+    second: terminal16x16_gs_ro_7
+  - first:
+      213: -4335889777259699312
+    second: terminal16x16_gs_ro_8
+  - first:
+      213: 9048505495076508073
+    second: terminal16x16_gs_ro_9
+  - first:
+      213: 6079468343049380037
+    second: terminal16x16_gs_ro_10
+  - first:
+      213: 7771895421028507668
+    second: terminal16x16_gs_ro_11
+  - first:
+      213: -8136137727694206001
+    second: terminal16x16_gs_ro_12
+  - first:
+      213: 5010474013057198860
+    second: terminal16x16_gs_ro_13
+  - first:
+      213: -1139284365513851805
+    second: terminal16x16_gs_ro_14
+  - first:
+      213: -8301138591091245905
+    second: terminal16x16_gs_ro_15
+  - first:
+      213: 698143142759193138
+    second: terminal16x16_gs_ro_16
+  - first:
+      213: -2099847297871419129
+    second: terminal16x16_gs_ro_17
+  - first:
+      213: -4677838803374063691
+    second: terminal16x16_gs_ro_18
+  - first:
+      213: -6760828981981942961
+    second: terminal16x16_gs_ro_19
+  - first:
+      213: 5878920411686235528
+    second: terminal16x16_gs_ro_20
+  - first:
+      213: 184456335519240189
+    second: terminal16x16_gs_ro_21
+  - first:
+      213: -1353289693424003480
+    second: terminal16x16_gs_ro_22
+  - first:
+      213: -921335459018404465
+    second: terminal16x16_gs_ro_23
+  - first:
+      213: -6622870087365165472
+    second: terminal16x16_gs_ro_24
+  - first:
+      213: -7465601667135654871
+    second: terminal16x16_gs_ro_25
+  - first:
+      213: -9137079698725593459
+    second: terminal16x16_gs_ro_26
+  - first:
+      213: 4501706214425536232
+    second: terminal16x16_gs_ro_27
+  - first:
+      213: -2055221492977732123
+    second: terminal16x16_gs_ro_28
+  - first:
+      213: -7211955665256604037
+    second: terminal16x16_gs_ro_29
+  - first:
+      213: 6063570083820966568
+    second: terminal16x16_gs_ro_30
+  - first:
+      213: 7409763320338218700
+    second: terminal16x16_gs_ro_31
+  - first:
+      213: 1220207482953869087
+    second: terminal16x16_gs_ro_32
+  - first:
+      213: 7017466159953917725
+    second: terminal16x16_gs_ro_33
+  - first:
+      213: 1755770627576104589
+    second: terminal16x16_gs_ro_34
+  - first:
+      213: 9211968572970955030
+    second: terminal16x16_gs_ro_35
+  - first:
+      213: 2510976565244624454
+    second: terminal16x16_gs_ro_36
+  - first:
+      213: 4799105604402548343
+    second: terminal16x16_gs_ro_37
+  - first:
+      213: 7867656003174404279
+    second: terminal16x16_gs_ro_38
+  - first:
+      213: 4802622784535622425
+    second: terminal16x16_gs_ro_39
+  - first:
+      213: -6834843818905654555
+    second: terminal16x16_gs_ro_40
+  - first:
+      213: 1695399042750868805
+    second: terminal16x16_gs_ro_41
+  - first:
+      213: -7458744657746781784
+    second: terminal16x16_gs_ro_42
+  - first:
+      213: -3262526449080222671
+    second: terminal16x16_gs_ro_43
+  - first:
+      213: -673137708195847343
+    second: terminal16x16_gs_ro_44
+  - first:
+      213: -1772885647091309546
+    second: terminal16x16_gs_ro_45
+  - first:
+      213: -7861454525010783345
+    second: terminal16x16_gs_ro_46
+  - first:
+      213: 709152809095116186
+    second: terminal16x16_gs_ro_47
+  - first:
+      213: -3974606548440656563
+    second: terminal16x16_gs_ro_48
+  - first:
+      213: 5558424159529887729
+    second: terminal16x16_gs_ro_49
+  - first:
+      213: -2935727432336391818
+    second: terminal16x16_gs_ro_50
+  - first:
+      213: 1927486304094911803
+    second: terminal16x16_gs_ro_51
+  - first:
+      213: 627742871412883919
+    second: terminal16x16_gs_ro_52
+  - first:
+      213: 5280788063260919132
+    second: terminal16x16_gs_ro_53
+  - first:
+      213: 8331399098716699897
+    second: terminal16x16_gs_ro_54
+  - first:
+      213: 4456006631263097817
+    second: terminal16x16_gs_ro_55
+  - first:
+      213: 4596728735622185250
+    second: terminal16x16_gs_ro_56
+  - first:
+      213: -5399916506901777280
+    second: terminal16x16_gs_ro_57
+  - first:
+      213: 5332340006891247318
+    second: terminal16x16_gs_ro_58
+  - first:
+      213: -8340645343627624376
+    second: terminal16x16_gs_ro_59
+  - first:
+      213: -4499393897303864236
+    second: terminal16x16_gs_ro_60
+  - first:
+      213: -7089866171177169169
+    second: terminal16x16_gs_ro_61
+  - first:
+      213: -450320663780566425
+    second: terminal16x16_gs_ro_62
+  - first:
+      213: -5142032589582096544
+    second: terminal16x16_gs_ro_63
+  - first:
+      213: -6533034781745505773
+    second: terminal16x16_gs_ro_64
+  - first:
+      213: -1346223954651619389
+    second: terminal16x16_gs_ro_65
+  - first:
+      213: 3261006298133625031
+    second: terminal16x16_gs_ro_66
+  - first:
+      213: -7279039987839267994
+    second: terminal16x16_gs_ro_67
+  - first:
+      213: -3260568834620689587
+    second: terminal16x16_gs_ro_68
+  - first:
+      213: 6569482417639991266
+    second: terminal16x16_gs_ro_69
+  - first:
+      213: 4379422749299545934
+    second: terminal16x16_gs_ro_70
+  - first:
+      213: 970230457903667553
+    second: terminal16x16_gs_ro_71
+  - first:
+      213: 5703265907705040658
+    second: terminal16x16_gs_ro_72
+  - first:
+      213: -3567992378650894558
+    second: terminal16x16_gs_ro_73
+  - first:
+      213: -8090490679509052462
+    second: terminal16x16_gs_ro_74
+  - first:
+      213: -5333723049803217898
+    second: terminal16x16_gs_ro_75
+  - first:
+      213: -2118807117358532883
+    second: terminal16x16_gs_ro_76
+  - first:
+      213: -7123911654787146445
+    second: terminal16x16_gs_ro_77
+  - first:
+      213: 8212425308082048199
+    second: terminal16x16_gs_ro_78
+  - first:
+      213: -757618585460340296
+    second: terminal16x16_gs_ro_79
+  - first:
+      213: 5588286569494962069
+    second: terminal16x16_gs_ro_80
+  - first:
+      213: 6260419340713710150
+    second: terminal16x16_gs_ro_81
+  - first:
+      213: -7219891277110431996
+    second: terminal16x16_gs_ro_82
+  - first:
+      213: 2952231260341697757
+    second: terminal16x16_gs_ro_83
+  - first:
+      213: 4034727676865736948
+    second: terminal16x16_gs_ro_84
+  - first:
+      213: -1971030367550000645
+    second: terminal16x16_gs_ro_85
+  - first:
+      213: -598241472216209959
+    second: terminal16x16_gs_ro_86
+  - first:
+      213: -2041459925116909381
+    second: terminal16x16_gs_ro_87
+  - first:
+      213: 7839449003403984354
+    second: terminal16x16_gs_ro_88
+  - first:
+      213: 3770403229121150137
+    second: terminal16x16_gs_ro_89
+  - first:
+      213: 949218940919039197
+    second: terminal16x16_gs_ro_90
+  - first:
+      213: 4038753541891917184
+    second: terminal16x16_gs_ro_91
+  - first:
+      213: 7355340664404588955
+    second: terminal16x16_gs_ro_92
+  - first:
+      213: 1072526733560065989
+    second: terminal16x16_gs_ro_93
+  - first:
+      213: -4471345042905840901
+    second: terminal16x16_gs_ro_94
+  - first:
+      213: 557203048643066973
+    second: terminal16x16_gs_ro_95
+  - first:
+      213: 5280331100594060327
+    second: terminal16x16_gs_ro_96
+  - first:
+      213: -3103065393172212036
+    second: terminal16x16_gs_ro_97
+  - first:
+      213: -8402721022654436199
+    second: terminal16x16_gs_ro_98
+  - first:
+      213: -6364798022947321085
+    second: terminal16x16_gs_ro_99
+  - first:
+      213: 825012512609180373
+    second: terminal16x16_gs_ro_100
+  - first:
+      213: 6988026107042816104
+    second: terminal16x16_gs_ro_101
+  - first:
+      213: -7890353998066441534
+    second: terminal16x16_gs_ro_102
+  - first:
+      213: 4313440106116737063
+    second: terminal16x16_gs_ro_103
+  - first:
+      213: 407881602680399295
+    second: terminal16x16_gs_ro_104
+  - first:
+      213: 8101499746195856325
+    second: terminal16x16_gs_ro_105
+  - first:
+      213: -7011191840522478161
+    second: terminal16x16_gs_ro_106
+  - first:
+      213: -6484837535140348499
+    second: terminal16x16_gs_ro_107
+  - first:
+      213: -1053797846918826807
+    second: terminal16x16_gs_ro_108
+  - first:
+      213: 6377175946667839482
+    second: terminal16x16_gs_ro_109
+  - first:
+      213: -1589253670981642280
+    second: terminal16x16_gs_ro_110
+  - first:
+      213: -6106868333943643970
+    second: terminal16x16_gs_ro_111
+  - first:
+      213: -1929598049795373356
+    second: terminal16x16_gs_ro_112
+  - first:
+      213: -3888348465776632373
+    second: terminal16x16_gs_ro_113
+  - first:
+      213: -4651715981741649428
+    second: terminal16x16_gs_ro_114
+  - first:
+      213: 6317814923900205771
+    second: terminal16x16_gs_ro_115
+  - first:
+      213: 1701283601165236903
+    second: terminal16x16_gs_ro_116
+  - first:
+      213: -5074216319805694906
+    second: terminal16x16_gs_ro_117
+  - first:
+      213: 1116827722853974199
+    second: terminal16x16_gs_ro_118
+  - first:
+      213: -5134021029236383224
+    second: terminal16x16_gs_ro_119
+  - first:
+      213: -4419899421587716581
+    second: terminal16x16_gs_ro_120
+  - first:
+      213: -1307518160622913813
+    second: terminal16x16_gs_ro_121
+  - first:
+      213: -3507038148025532196
+    second: terminal16x16_gs_ro_122
+  - first:
+      213: 5913393684841256712
+    second: terminal16x16_gs_ro_123
+  - first:
+      213: 8798891838893720712
+    second: terminal16x16_gs_ro_124
+  - first:
+      213: -2517016520590202536
+    second: terminal16x16_gs_ro_125
+  - first:
+      213: 7510904304246457260
+    second: terminal16x16_gs_ro_126
+  - first:
+      213: 2369470625187469420
+    second: terminal16x16_gs_ro_127
+  - first:
+      213: 2940794595528206184
+    second: terminal16x16_gs_ro_128
+  - first:
+      213: 5148478943831197139
+    second: terminal16x16_gs_ro_129
+  - first:
+      213: -5830917389996264050
+    second: terminal16x16_gs_ro_130
+  - first:
+      213: -4211175687274339572
+    second: terminal16x16_gs_ro_131
+  - first:
+      213: 5746262429517164842
+    second: terminal16x16_gs_ro_132
+  - first:
+      213: 4412818176558272653
+    second: terminal16x16_gs_ro_133
+  - first:
+      213: 6703858120873128304
+    second: terminal16x16_gs_ro_134
+  - first:
+      213: 7847409225148763282
+    second: terminal16x16_gs_ro_135
+  - first:
+      213: -5680864618148939756
+    second: terminal16x16_gs_ro_136
+  - first:
+      213: 6113334866356288565
+    second: terminal16x16_gs_ro_137
+  - first:
+      213: 4398133909118855614
+    second: terminal16x16_gs_ro_138
+  - first:
+      213: -702714929123824972
+    second: terminal16x16_gs_ro_139
+  - first:
+      213: 4693113776271612515
+    second: terminal16x16_gs_ro_140
+  - first:
+      213: 2680771792417769605
+    second: terminal16x16_gs_ro_141
+  - first:
+      213: -1135952699846499210
+    second: terminal16x16_gs_ro_142
+  - first:
+      213: -7338706656749598457
+    second: terminal16x16_gs_ro_143
+  - first:
+      213: 6006844468379025076
+    second: terminal16x16_gs_ro_144
+  - first:
+      213: -3129552579679910229
+    second: terminal16x16_gs_ro_145
+  - first:
+      213: 7046199232469247898
+    second: terminal16x16_gs_ro_146
+  - first:
+      213: 1087933528260370864
+    second: terminal16x16_gs_ro_147
+  - first:
+      213: -8119651701726238841
+    second: terminal16x16_gs_ro_148
+  - first:
+      213: -9067508204520661204
+    second: terminal16x16_gs_ro_149
+  - first:
+      213: 4418105750192759682
+    second: terminal16x16_gs_ro_150
+  - first:
+      213: -2256725802093428270
+    second: terminal16x16_gs_ro_151
+  - first:
+      213: -7542350893695929621
+    second: terminal16x16_gs_ro_152
+  - first:
+      213: 241488081272727275
+    second: terminal16x16_gs_ro_153
+  - first:
+      213: 7816491674459821380
+    second: terminal16x16_gs_ro_154
+  - first:
+      213: -5890129679160502033
+    second: terminal16x16_gs_ro_155
+  - first:
+      213: 3218506085972874
+    second: terminal16x16_gs_ro_156
+  - first:
+      213: -5440605671524298668
+    second: terminal16x16_gs_ro_157
+  - first:
+      213: -5641886920857513333
+    second: terminal16x16_gs_ro_158
+  - first:
+      213: 1062229536051310415
+    second: terminal16x16_gs_ro_159
+  - first:
+      213: -4548150811495815180
+    second: terminal16x16_gs_ro_160
+  - first:
+      213: 217411542907608090
+    second: terminal16x16_gs_ro_161
+  - first:
+      213: -6331973074656136530
+    second: terminal16x16_gs_ro_162
+  - first:
+      213: -1951452005418388946
+    second: terminal16x16_gs_ro_163
+  - first:
+      213: 2973683834299125227
+    second: terminal16x16_gs_ro_164
+  - first:
+      213: 6861043772135330381
+    second: terminal16x16_gs_ro_165
+  - first:
+      213: -6734912398915255108
+    second: terminal16x16_gs_ro_166
+  - first:
+      213: 3784772146986254333
+    second: terminal16x16_gs_ro_167
+  - first:
+      213: 4269200324126689029
+    second: terminal16x16_gs_ro_168
+  - first:
+      213: -3812564956428779736
+    second: terminal16x16_gs_ro_169
+  - first:
+      213: 9201752540737719547
+    second: terminal16x16_gs_ro_170
+  - first:
+      213: -2572846742644661411
+    second: terminal16x16_gs_ro_171
+  - first:
+      213: -3172434809385857314
+    second: terminal16x16_gs_ro_172
+  - first:
+      213: 5259205759719154206
+    second: terminal16x16_gs_ro_173
+  - first:
+      213: -8587140141777845656
+    second: terminal16x16_gs_ro_174
+  - first:
+      213: -89916673275905121
+    second: terminal16x16_gs_ro_175
+  - first:
+      213: -662663293935015942
+    second: terminal16x16_gs_ro_176
+  - first:
+      213: -6774888299526789077
+    second: terminal16x16_gs_ro_177
+  - first:
+      213: -5563298854045267408
+    second: terminal16x16_gs_ro_178
+  - first:
+      213: -2990164371045563924
+    second: terminal16x16_gs_ro_179
+  - first:
+      213: -6874569843078748902
+    second: terminal16x16_gs_ro_180
+  - first:
+      213: 3842902078711566429
+    second: terminal16x16_gs_ro_181
+  - first:
+      213: 8307770635293920974
+    second: terminal16x16_gs_ro_182
+  - first:
+      213: -2893410381441670362
+    second: terminal16x16_gs_ro_183
+  - first:
+      213: 2813355221107054722
+    second: terminal16x16_gs_ro_184
+  - first:
+      213: -6912387755437190082
+    second: terminal16x16_gs_ro_185
+  - first:
+      213: 5772316855486863367
+    second: terminal16x16_gs_ro_186
+  - first:
+      213: -7781465339799959558
+    second: terminal16x16_gs_ro_187
+  - first:
+      213: 1233429038587994319
+    second: terminal16x16_gs_ro_188
+  - first:
+      213: 6118764579275765512
+    second: terminal16x16_gs_ro_189
+  - first:
+      213: 7057247650898560809
+    second: terminal16x16_gs_ro_190
+  - first:
+      213: -1142937848579693369
+    second: terminal16x16_gs_ro_191
+  - first:
+      213: 2222527349995459256
+    second: terminal16x16_gs_ro_192
+  - first:
+      213: 6299866033565459184
+    second: terminal16x16_gs_ro_193
+  - first:
+      213: 4771232221643885443
+    second: terminal16x16_gs_ro_194
+  - first:
+      213: 5584586085511886625
+    second: terminal16x16_gs_ro_195
+  - first:
+      213: -1987680070829199842
+    second: terminal16x16_gs_ro_196
+  - first:
+      213: -4974672491289410377
+    second: terminal16x16_gs_ro_197
+  - first:
+      213: -2531903944833781935
+    second: terminal16x16_gs_ro_198
+  - first:
+      213: -3775306635339354075
+    second: terminal16x16_gs_ro_199
+  - first:
+      213: -7425723504442353405
+    second: terminal16x16_gs_ro_200
+  - first:
+      213: -7468812535954428075
+    second: terminal16x16_gs_ro_201
+  - first:
+      213: 7370029655134138625
+    second: terminal16x16_gs_ro_202
+  - first:
+      213: 651243865124394038
+    second: terminal16x16_gs_ro_203
+  - first:
+      213: 8865308204818854945
+    second: terminal16x16_gs_ro_204
+  - first:
+      213: 7911442577956532927
+    second: terminal16x16_gs_ro_205
+  - first:
+      213: 5279743638645800957
+    second: terminal16x16_gs_ro_206
+  - first:
+      213: 8408421170067539907
+    second: terminal16x16_gs_ro_207
+  - first:
+      213: 4065832530442219478
+    second: terminal16x16_gs_ro_208
+  - first:
+      213: 8427073437198635531
+    second: terminal16x16_gs_ro_209
+  - first:
+      213: 187906966265651893
+    second: terminal16x16_gs_ro_210
+  - first:
+      213: 1073546676655744130
+    second: terminal16x16_gs_ro_211
+  - first:
+      213: 8679176329313239177
+    second: terminal16x16_gs_ro_212
+  - first:
+      213: 7427395363154389558
+    second: terminal16x16_gs_ro_213
+  - first:
+      213: 601028944468562136
+    second: terminal16x16_gs_ro_214
+  - first:
+      213: 1342303910222956124
+    second: terminal16x16_gs_ro_215
+  - first:
+      213: 1672818469908808945
+    second: terminal16x16_gs_ro_216
+  - first:
+      213: -3425143796723379373
+    second: terminal16x16_gs_ro_217
+  - first:
+      213: 6952735422629429753
+    second: terminal16x16_gs_ro_218
+  - first:
+      213: 1956748944225628950
+    second: terminal16x16_gs_ro_219
+  - first:
+      213: 5345319432334263510
+    second: terminal16x16_gs_ro_220
+  - first:
+      213: -2207982668565960121
+    second: terminal16x16_gs_ro_221
+  - first:
+      213: 806806638293562663
+    second: terminal16x16_gs_ro_222
+  - first:
+      213: -4693696422562694652
+    second: terminal16x16_gs_ro_223
+  - first:
+      213: 1079442661612005419
+    second: terminal16x16_gs_ro_224
+  - first:
+      213: -3362267686996628246
+    second: terminal16x16_gs_ro_225
+  - first:
+      213: -1121783248901164749
+    second: terminal16x16_gs_ro_226
+  - first:
+      213: 4893936422081649998
+    second: terminal16x16_gs_ro_227
+  - first:
+      213: 2757241788490770447
+    second: terminal16x16_gs_ro_228
+  - first:
+      213: -4987238746125684390
+    second: terminal16x16_gs_ro_229
+  - first:
+      213: 3499334607989112056
+    second: terminal16x16_gs_ro_230
+  - first:
+      213: 7074413416440015935
+    second: terminal16x16_gs_ro_231
+  - first:
+      213: -6600512701329644187
+    second: terminal16x16_gs_ro_232
+  - first:
+      213: -3726455242376752024
+    second: terminal16x16_gs_ro_233
+  - first:
+      213: -2500061125569673457
+    second: terminal16x16_gs_ro_234
+  - first:
+      213: -2792395768840364597
+    second: terminal16x16_gs_ro_235
+  - first:
+      213: 5383461969748483982
+    second: terminal16x16_gs_ro_236
+  - first:
+      213: 2567611807178923195
+    second: terminal16x16_gs_ro_237
+  - first:
+      213: 8402137191509917416
+    second: terminal16x16_gs_ro_238
+  - first:
+      213: 8059024064194517043
+    second: terminal16x16_gs_ro_239
+  - first:
+      213: 5591517641193008779
+    second: terminal16x16_gs_ro_240
+  - first:
+      213: 7910897204626065590
+    second: terminal16x16_gs_ro_241
+  - first:
+      213: -7564440150997698133
+    second: terminal16x16_gs_ro_242
+  - first:
+      213: -3612064730593533842
+    second: terminal16x16_gs_ro_243
+  - first:
+      213: -5344780943030277376
+    second: terminal16x16_gs_ro_244
+  - first:
+      213: -6301256185915688584
+    second: terminal16x16_gs_ro_245
+  - first:
+      213: -8064827151740843488
+    second: terminal16x16_gs_ro_246
+  - first:
+      213: 641951306258134323
+    second: terminal16x16_gs_ro_247
+  - first:
+      213: 8248299705955389422
+    second: terminal16x16_gs_ro_248
+  - first:
+      213: 457399403255430159
+    second: terminal16x16_gs_ro_249
+  - first:
+      213: -1746747288183446395
+    second: terminal16x16_gs_ro_250
+  - first:
+      213: 7545892437028226260
+    second: terminal16x16_gs_ro_251
+  - first:
+      213: -4260955010897820427
+    second: terminal16x16_gs_ro_252
+  - first:
+      213: -1130249953669122799
+    second: terminal16x16_gs_ro_253
+  - first:
+      213: 1185839555777975315
+    second: terminal16x16_gs_ro_254
+  - first:
+      213: 32267181915295877
+    second: terminal16x16_gs_ro_255
+  - first:
+      213: -1594704477200881893
+    second: terminal16x16_gs_ro_0
+  - first:
+      213: 5823461485472795892
+    second: terminal16x16_gs_ro_1
+  - first:
+      213: 6804825210401728218
+    second: terminal16x16_gs_ro_2
+  - first:
+      213: 6467938607079985719
+    second: terminal16x16_gs_ro_3
+  - first:
+      213: -4714602174915798546
+    second: terminal16x16_gs_ro_4
+  - first:
+      213: 2726692142215128579
+    second: terminal16x16_gs_ro_5
+  - first:
+      213: -8691930015773306852
+    second: terminal16x16_gs_ro_6
+  - first:
+      213: 5581148885148758474
+    second: terminal16x16_gs_ro_7
+  - first:
+      213: -8317506691657339795
+    second: terminal16x16_gs_ro_8
+  - first:
+      213: -6300730670800566498
+    second: terminal16x16_gs_ro_9
+  - first:
+      213: 8895292778160095942
+    second: terminal16x16_gs_ro_10
+  - first:
+      213: 4406773495192642172
+    second: terminal16x16_gs_ro_11
+  - first:
+      213: -7059828252665633784
+    second: terminal16x16_gs_ro_12
+  - first:
+      213: -3831572043031810759
+    second: terminal16x16_gs_ro_13
+  - first:
+      213: 4077611559266058618
+    second: terminal16x16_gs_ro_14
+  - first:
+      213: 4883943796757999309
+    second: terminal16x16_gs_ro_15
+  - first:
+      213: -6448064464256670845
+    second: terminal16x16_gs_ro_16
+  - first:
+      213: 3293613073633696813
+    second: terminal16x16_gs_ro_17
+  - first:
+      213: -3126018102739684652
+    second: terminal16x16_gs_ro_18
+  - first:
+      213: 4741199626997027510
+    second: terminal16x16_gs_ro_19
+  - first:
+      213: 1595370937541673517
+    second: terminal16x16_gs_ro_20
+  - first:
+      213: 3188622762405312917
+    second: terminal16x16_gs_ro_21
+  - first:
+      213: -3816891904442911194
+    second: terminal16x16_gs_ro_22
+  - first:
+      213: -6155935454145571471
+    second: terminal16x16_gs_ro_23
+  - first:
+      213: 5532336530746442276
+    second: terminal16x16_gs_ro_24
+  - first:
+      213: 9163493521247397366
+    second: terminal16x16_gs_ro_25
+  - first:
+      213: -5284070386894753238
+    second: terminal16x16_gs_ro_26
+  - first:
+      213: 7275381085867988974
+    second: terminal16x16_gs_ro_27
+  - first:
+      213: -1390441684009423626
+    second: terminal16x16_gs_ro_28
+  - first:
+      213: -5306322973793044323
+    second: terminal16x16_gs_ro_29
+  - first:
+      213: -3957950728736859764
+    second: terminal16x16_gs_ro_30
+  - first:
+      213: -2680327158813493982
+    second: terminal16x16_gs_ro_31
+  - first:
+      213: -7947799022777379767
+    second: terminal16x16_gs_ro_32
+  - first:
+      213: 3979213262326242662
+    second: terminal16x16_gs_ro_33
+  - first:
+      213: -8395703693921164770
+    second: terminal16x16_gs_ro_34
+  - first:
+      213: 9115742377582764311
+    second: terminal16x16_gs_ro_35
+  - first:
+      213: -3293692424678958995
+    second: terminal16x16_gs_ro_36
+  - first:
+      213: -704618792006312864
+    second: terminal16x16_gs_ro_37
+  - first:
+      213: 1865209432833256843
+    second: terminal16x16_gs_ro_38
+  - first:
+      213: -3938558244817820318
+    second: terminal16x16_gs_ro_39
+  - first:
+      213: 4317718168189831807
+    second: terminal16x16_gs_ro_40
+  - first:
+      213: -7681512847364573166
+    second: terminal16x16_gs_ro_41
+  - first:
+      213: 1400443003383035790
+    second: terminal16x16_gs_ro_42
+  - first:
+      213: 2619636116946899959
+    second: terminal16x16_gs_ro_43
+  - first:
+      213: 6955364473432035693
+    second: terminal16x16_gs_ro_44
+  - first:
+      213: 8103834278736987911
+    second: terminal16x16_gs_ro_45
+  - first:
+      213: -7887595174303132259
+    second: terminal16x16_gs_ro_46
+  - first:
+      213: -3304544079318113379
+    second: terminal16x16_gs_ro_47
+  - first:
+      213: -3296459441774414379
+    second: terminal16x16_gs_ro_48
+  - first:
+      213: 1472792895662403804
+    second: terminal16x16_gs_ro_49
+  - first:
+      213: -1602243417941518309
+    second: terminal16x16_gs_ro_50
+  - first:
+      213: 3783630309880500945
+    second: terminal16x16_gs_ro_51
+  - first:
+      213: 6752148834089550904
+    second: terminal16x16_gs_ro_52
+  - first:
+      213: 5659302690373129824
+    second: terminal16x16_gs_ro_53
+  - first:
+      213: 7171211420724339789
+    second: terminal16x16_gs_ro_54
+  - first:
+      213: -3809944365981776704
+    second: terminal16x16_gs_ro_55
+  - first:
+      213: 1170948801895188555
+    second: terminal16x16_gs_ro_56
+  - first:
+      213: 3724473449818296292
+    second: terminal16x16_gs_ro_57
+  - first:
+      213: 6325190169122389158
+    second: terminal16x16_gs_ro_58
+  - first:
+      213: -2086141088980395989
+    second: terminal16x16_gs_ro_59
+  - first:
+      213: 2174159418724474963
+    second: terminal16x16_gs_ro_60
+  - first:
+      213: -713406218546104446
+    second: terminal16x16_gs_ro_61
+  - first:
+      213: -8718926800777892198
+    second: terminal16x16_gs_ro_62
+  - first:
+      213: -4613368573921516041
+    second: terminal16x16_gs_ro_63
+  - first:
+      213: -4536094470811496395
+    second: terminal16x16_gs_ro_64
+  - first:
+      213: 4881433950793694792
+    second: terminal16x16_gs_ro_65
+  - first:
+      213: 4265253884758457402
+    second: terminal16x16_gs_ro_66
+  - first:
+      213: -3834830290376377855
+    second: terminal16x16_gs_ro_67
+  - first:
+      213: -2270339140716473516
+    second: terminal16x16_gs_ro_68
+  - first:
+      213: 7456482856298099972
+    second: terminal16x16_gs_ro_69
+  - first:
+      213: -5770718363700554148
+    second: terminal16x16_gs_ro_70
+  - first:
+      213: -1142695820867691532
+    second: terminal16x16_gs_ro_71
+  - first:
+      213: 957975636366732596
+    second: terminal16x16_gs_ro_72
+  - first:
+      213: -4621966101220482945
+    second: terminal16x16_gs_ro_73
+  - first:
+      213: 6312976722818507891
+    second: terminal16x16_gs_ro_74
+  - first:
+      213: 97742521281678105
+    second: terminal16x16_gs_ro_75
+  - first:
+      213: -2387858282616824008
+    second: terminal16x16_gs_ro_76
+  - first:
+      213: 1801502048800202090
+    second: terminal16x16_gs_ro_77
+  - first:
+      213: -5009028372992034756
+    second: terminal16x16_gs_ro_78
+  - first:
+      213: 4952436749374351146
+    second: terminal16x16_gs_ro_79
+  - first:
+      213: -8573904602791808937
+    second: terminal16x16_gs_ro_80
+  - first:
+      213: 5373286144320849559
+    second: terminal16x16_gs_ro_81
+  - first:
+      213: 8451248735969190754
+    second: terminal16x16_gs_ro_82
+  - first:
+      213: 4391882812362519681
+    second: terminal16x16_gs_ro_83
+  - first:
+      213: -3406196528444633612
+    second: terminal16x16_gs_ro_84
+  - first:
+      213: -2266519498656060198
+    second: terminal16x16_gs_ro_85
+  - first:
+      213: -6696389895943599433
+    second: terminal16x16_gs_ro_86
+  - first:
+      213: -1911468288803566527
+    second: terminal16x16_gs_ro_87
+  - first:
+      213: 1611363268022727141
+    second: terminal16x16_gs_ro_88
+  - first:
+      213: 5488018735209417199
+    second: terminal16x16_gs_ro_89
+  - first:
+      213: -3231044346285562493
+    second: terminal16x16_gs_ro_90
+  - first:
+      213: 8081977848833968215
+    second: terminal16x16_gs_ro_91
+  - first:
+      213: 5357132574360680384
+    second: terminal16x16_gs_ro_92
+  - first:
+      213: -5614195158126518151
+    second: terminal16x16_gs_ro_93
+  - first:
+      213: 6482431232097688932
+    second: terminal16x16_gs_ro_94
+  - first:
+      213: -579459565143008049
+    second: terminal16x16_gs_ro_95
+  - first:
+      213: 5649494228849468562
+    second: terminal16x16_gs_ro_96
+  - first:
+      213: -8926423368780762784
+    second: terminal16x16_gs_ro_97
+  - first:
+      213: -1450804692775946742
+    second: terminal16x16_gs_ro_98
+  - first:
+      213: -8129098432435754577
+    second: terminal16x16_gs_ro_99
+  - first:
+      213: -1256109907787641372
+    second: terminal16x16_gs_ro_100
+  - first:
+      213: 3825780892369213050
+    second: terminal16x16_gs_ro_101
+  - first:
+      213: -8581321502759234279
+    second: terminal16x16_gs_ro_102
+  - first:
+      213: 1942007383002214154
+    second: terminal16x16_gs_ro_103
+  - first:
+      213: -7619270418621777225
+    second: terminal16x16_gs_ro_104
+  - first:
+      213: -5503298049903571515
+    second: terminal16x16_gs_ro_105
+  - first:
+      213: 540045495388160812
+    second: terminal16x16_gs_ro_106
+  - first:
+      213: -8923125954610011072
+    second: terminal16x16_gs_ro_107
+  - first:
+      213: -7577884491066811202
+    second: terminal16x16_gs_ro_108
+  - first:
+      213: 303389160069773787
+    second: terminal16x16_gs_ro_109
+  - first:
+      213: -269408733830282822
+    second: terminal16x16_gs_ro_110
+  - first:
+      213: -1963920667761738059
+    second: terminal16x16_gs_ro_111
+  - first:
+      213: -5928753214301146743
+    second: terminal16x16_gs_ro_112
+  - first:
+      213: -7156236647144587674
+    second: terminal16x16_gs_ro_113
+  - first:
+      213: -4483772134412751600
+    second: terminal16x16_gs_ro_114
+  - first:
+      213: 6315385010514144596
+    second: terminal16x16_gs_ro_115
+  - first:
+      213: -5291082981593370792
+    second: terminal16x16_gs_ro_116
+  - first:
+      213: -6766927066229140794
+    second: terminal16x16_gs_ro_117
+  - first:
+      213: -7582329955419522616
+    second: terminal16x16_gs_ro_118
+  - first:
+      213: 4593152385629911581
+    second: terminal16x16_gs_ro_119
+  - first:
+      213: 7007773346537527147
+    second: terminal16x16_gs_ro_120
+  - first:
+      213: -3139255764927064841
+    second: terminal16x16_gs_ro_121
+  - first:
+      213: -268750632859384774
+    second: terminal16x16_gs_ro_122
+  - first:
+      213: -5822460441716016317
+    second: terminal16x16_gs_ro_123
+  - first:
+      213: 8650366704237816847
+    second: terminal16x16_gs_ro_124
+  - first:
+      213: -3710044907792821928
+    second: terminal16x16_gs_ro_125
+  - first:
+      213: -6610442072782942107
+    second: terminal16x16_gs_ro_126
+  - first:
+      213: 7242782490606932518
+    second: terminal16x16_gs_ro_127
+  - first:
+      213: 1368281003240589757
+    second: terminal16x16_gs_ro_128
+  - first:
+      213: 4752360158539081878
+    second: terminal16x16_gs_ro_129
+  - first:
+      213: 9204025241682369247
+    second: terminal16x16_gs_ro_130
+  - first:
+      213: 3477825869986728198
+    second: terminal16x16_gs_ro_131
+  - first:
+      213: -9083980565051057586
+    second: terminal16x16_gs_ro_132
+  - first:
+      213: 1069438671711038270
+    second: terminal16x16_gs_ro_133
+  - first:
+      213: -8517970354615496760
+    second: terminal16x16_gs_ro_134
+  - first:
+      213: 4144309622731557077
+    second: terminal16x16_gs_ro_135
+  - first:
+      213: 6748272926688469901
+    second: terminal16x16_gs_ro_136
+  - first:
+      213: 5039849105336566944
+    second: terminal16x16_gs_ro_137
+  - first:
+      213: -1515133817742014281
+    second: terminal16x16_gs_ro_138
+  - first:
+      213: -3755455633319105982
+    second: terminal16x16_gs_ro_139
+  - first:
+      213: -58929968858271883
+    second: terminal16x16_gs_ro_140
+  - first:
+      213: 6355817558496146521
+    second: terminal16x16_gs_ro_141
+  - first:
+      213: 3957343277382047180
+    second: terminal16x16_gs_ro_142
+  - first:
+      213: -3339982437992230042
+    second: terminal16x16_gs_ro_143
+  - first:
+      213: -4098521161317036830
+    second: terminal16x16_gs_ro_144
+  - first:
+      213: -4440319914027042172
+    second: terminal16x16_gs_ro_145
+  - first:
+      213: -2215479407224941176
+    second: terminal16x16_gs_ro_146
+  - first:
+      213: -8198093095142043587
+    second: terminal16x16_gs_ro_147
+  - first:
+      213: -845950678205348796
+    second: terminal16x16_gs_ro_148
+  - first:
+      213: -7321404142150144056
+    second: terminal16x16_gs_ro_149
+  - first:
+      213: 1096962376240791861
+    second: terminal16x16_gs_ro_150
+  - first:
+      213: 6994207285793500462
+    second: terminal16x16_gs_ro_151
+  - first:
+      213: 1848625876547897087
+    second: terminal16x16_gs_ro_152
+  - first:
+      213: 2772474156452921939
+    second: terminal16x16_gs_ro_153
+  - first:
+      213: 2512045406382528476
+    second: terminal16x16_gs_ro_154
+  - first:
+      213: -5203366701277999750
+    second: terminal16x16_gs_ro_155
+  - first:
+      213: -1849737581376266679
+    second: terminal16x16_gs_ro_156
+  - first:
+      213: 7005717161692500509
+    second: terminal16x16_gs_ro_157
+  - first:
+      213: 4569416477560721411
+    second: terminal16x16_gs_ro_158
+  - first:
+      213: -8686373706720025360
+    second: terminal16x16_gs_ro_159
+  - first:
+      213: 5379665265660749884
+    second: terminal16x16_gs_ro_160
+  - first:
+      213: -4948717800260745163
+    second: terminal16x16_gs_ro_161
+  - first:
+      213: 2927383648781908388
+    second: terminal16x16_gs_ro_162
+  - first:
+      213: -5878114678976797913
+    second: terminal16x16_gs_ro_163
+  - first:
+      213: -1816178020055293837
+    second: terminal16x16_gs_ro_164
+  - first:
+      213: -4531551849111149298
+    second: terminal16x16_gs_ro_165
+  - first:
+      213: -3098160256642351121
+    second: terminal16x16_gs_ro_166
+  - first:
+      213: 1436318162934068491
+    second: terminal16x16_gs_ro_167
+  - first:
+      213: 3103775124750302314
+    second: terminal16x16_gs_ro_168
+  - first:
+      213: -639357020311275677
+    second: terminal16x16_gs_ro_169
+  - first:
+      213: 7857890145236462727
+    second: terminal16x16_gs_ro_170
+  - first:
+      213: 1631059060393685163
+    second: terminal16x16_gs_ro_171
+  - first:
+      213: 6249175838914579891
+    second: terminal16x16_gs_ro_172
+  - first:
+      213: -6524701047124810085
+    second: terminal16x16_gs_ro_173
+  - first:
+      213: 2386186489732061533
+    second: terminal16x16_gs_ro_174
+  - first:
+      213: -6813077589959579712
+    second: terminal16x16_gs_ro_175
+  - first:
+      213: -8112328974775314389
+    second: terminal16x16_gs_ro_176
+  - first:
+      213: 4606315685621399016
+    second: terminal16x16_gs_ro_177
+  - first:
+      213: 3701162019281312296
+    second: terminal16x16_gs_ro_178
+  - first:
+      213: -8141383844064072282
+    second: terminal16x16_gs_ro_179
+  - first:
+      213: -8338499051995730295
+    second: terminal16x16_gs_ro_180
+  - first:
+      213: 670005941289543964
+    second: terminal16x16_gs_ro_181
+  - first:
+      213: -3196477785907921949
+    second: terminal16x16_gs_ro_182
+  - first:
+      213: -530073328471093485
+    second: terminal16x16_gs_ro_183
+  - first:
+      213: -8359114467924943038
+    second: terminal16x16_gs_ro_184
+  - first:
+      213: -8982970547042180530
+    second: terminal16x16_gs_ro_185
+  - first:
+      213: 6224665164229525618
+    second: terminal16x16_gs_ro_186
+  - first:
+      213: -748945020482605432
+    second: terminal16x16_gs_ro_187
+  - first:
+      213: 7920947828034389211
+    second: terminal16x16_gs_ro_188
+  - first:
+      213: -3779486239889869515
+    second: terminal16x16_gs_ro_189
+  - first:
+      213: -1596352348433783263
+    second: terminal16x16_gs_ro_190
+  - first:
+      213: -3397793963056451639
+    second: terminal16x16_gs_ro_191
+  - first:
+      213: -6222520135735084468
+    second: terminal16x16_gs_ro_192
+  - first:
+      213: 2154703997776427887
+    second: terminal16x16_gs_ro_193
+  - first:
+      213: -6430652751595320424
+    second: terminal16x16_gs_ro_194
+  - first:
+      213: -1741044974232734247
+    second: terminal16x16_gs_ro_195
+  - first:
+      213: 880869875016104106
+    second: terminal16x16_gs_ro_196
+  - first:
+      213: 2938395700942512481
+    second: terminal16x16_gs_ro_197
+  - first:
+      213: 3364177376268912573
+    second: terminal16x16_gs_ro_198
+  - first:
+      213: 3404688149729523243
+    second: terminal16x16_gs_ro_199
+  - first:
+      213: 5792835404654976266
+    second: terminal16x16_gs_ro_200
+  - first:
+      213: -2393759265402876723
+    second: terminal16x16_gs_ro_201
+  - first:
+      213: 4311652604832835159
+    second: terminal16x16_gs_ro_202
+  - first:
+      213: 9123640702573087016
+    second: terminal16x16_gs_ro_203
+  - first:
+      213: 2769527939226057885
+    second: terminal16x16_gs_ro_204
+  - first:
+      213: 7985583046479743118
+    second: terminal16x16_gs_ro_205
+  - first:
+      213: -468612223803172464
+    second: terminal16x16_gs_ro_206
+  - first:
+      213: -7875705548618437154
+    second: terminal16x16_gs_ro_207
+  - first:
+      213: 6564677829243988275
+    second: terminal16x16_gs_ro_208
+  - first:
+      213: -9210594294686033289
+    second: terminal16x16_gs_ro_209
+  - first:
+      213: -8827488827498048923
+    second: terminal16x16_gs_ro_210
+  - first:
+      213: -1862283746035686541
+    second: terminal16x16_gs_ro_211
+  - first:
+      213: -5418531915438007874
+    second: terminal16x16_gs_ro_212
+  - first:
+      213: -5789090269457719076
+    second: terminal16x16_gs_ro_213
+  - first:
+      213: -2492606588482159884
+    second: terminal16x16_gs_ro_214
+  - first:
+      213: -9184615004381790016
+    second: terminal16x16_gs_ro_215
+  - first:
+      213: 5764398133436653362
+    second: terminal16x16_gs_ro_216
+  - first:
+      213: 2292039128386948516
+    second: terminal16x16_gs_ro_217
+  - first:
+      213: 2184272863392066973
+    second: terminal16x16_gs_ro_218
+  - first:
+      213: -229626413087495988
+    second: terminal16x16_gs_ro_219
+  - first:
+      213: -1689634134086441
+    second: terminal16x16_gs_ro_220
+  - first:
+      213: 1148443728341206403
+    second: terminal16x16_gs_ro_221
+  - first:
+      213: -1044724147030242888
+    second: terminal16x16_gs_ro_222
+  - first:
+      213: -4822487290589776151
+    second: terminal16x16_gs_ro_223
+  - first:
+      213: -9094003364314007047
+    second: terminal16x16_gs_ro_224
+  - first:
+      213: 3128004794196743025
+    second: terminal16x16_gs_ro_225
+  - first:
+      213: -4187513206816684225
+    second: terminal16x16_gs_ro_226
+  - first:
+      213: 4361391324692777297
+    second: terminal16x16_gs_ro_227
+  - first:
+      213: 106613963042435998
+    second: terminal16x16_gs_ro_228
+  - first:
+      213: 9093662391438160819
+    second: terminal16x16_gs_ro_229
+  - first:
+      213: 5143195807599350198
+    second: terminal16x16_gs_ro_230
+  - first:
+      213: -6054876653525144889
+    second: terminal16x16_gs_ro_231
+  - first:
+      213: -3720315403300351201
+    second: terminal16x16_gs_ro_232
+  - first:
+      213: 8995992127457721183
+    second: terminal16x16_gs_ro_233
+  - first:
+      213: 3126455723071385906
+    second: terminal16x16_gs_ro_234
+  - first:
+      213: -4683101215853515331
+    second: terminal16x16_gs_ro_235
+  - first:
+      213: -5221379748097338753
+    second: terminal16x16_gs_ro_236
+  - first:
+      213: 2124413983867405379
+    second: terminal16x16_gs_ro_237
+  - first:
+      213: -7539596657273019092
+    second: terminal16x16_gs_ro_238
+  - first:
+      213: 1774117348823165585
+    second: terminal16x16_gs_ro_239
+  - first:
+      213: -6605826641482885649
+    second: terminal16x16_gs_ro_240
+  - first:
+      213: -6631675923552384030
+    second: terminal16x16_gs_ro_241
+  - first:
+      213: -8175906463022077252
+    second: terminal16x16_gs_ro_242
+  - first:
+      213: -4258306058857199385
+    second: terminal16x16_gs_ro_243
+  - first:
+      213: 3718611920887207538
+    second: terminal16x16_gs_ro_244
+  - first:
+      213: 652207270212466026
+    second: terminal16x16_gs_ro_245
+  - first:
+      213: 1116060647194966489
+    second: terminal16x16_gs_ro_246
+  - first:
+      213: -8469444539859333277
+    second: terminal16x16_gs_ro_247
+  - first:
+      213: 7416404668144997805
+    second: terminal16x16_gs_ro_248
+  - first:
+      213: -7051628526381453213
+    second: terminal16x16_gs_ro_249
+  - first:
+      213: -6342835697880748839
+    second: terminal16x16_gs_ro_250
+  - first:
+      213: -7640664552832701232
+    second: terminal16x16_gs_ro_251
+  - first:
+      213: -3244972147687511625
+    second: terminal16x16_gs_ro_252
+  - first:
+      213: -2365972934581850806
+    second: terminal16x16_gs_ro_253
+  - first:
+      213: 7482151438736717494
+    second: terminal16x16_gs_ro_254
+  - first:
+      213: -2284031942620634970
+    second: terminal16x16_gs_ro_255
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1767b22ab87ed9e0800000000000000
+      internalID: -1594704477200881893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc46c4fd5711d050800000000000000
+      internalID: 5823461485472795892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad62e90b9789f6e50800000000000000
+      internalID: 6804825210401728218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732990005ebb2c950800000000000000
+      internalID: 6467938607079985719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee91cda0d4e529eb0800000000000000
+      internalID: -4714602174915798546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306e4948e0827d520800000000000000
+      internalID: 2726692142215128579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10d645d3bf006780800000000000000
+      internalID: -8691930015773306852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1fbd14759347d40800000000000000
+      internalID: 5581148885148758474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c64d26bb7429c80800000000000000
+      internalID: -8317506691657339795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17068d66de4f88a0800000000000000
+      internalID: -6300730670800566498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2845707ad627b70800000000000000
+      internalID: 8895292778160095942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7260925521082d30800000000000000
+      internalID: 4406773495192642172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8042998db93760e90800000000000000
+      internalID: -7059828252665633784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d65c3078583dac0800000000000000
+      internalID: -3831572043031810759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71841aeb16969830800000000000000
+      internalID: 4077611559266058618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dceabb4c10147c340800000000000000
+      internalID: 4883943796757999309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3836927788fd386a0800000000000000
+      internalID: -6448064464256670845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cd481e3a345bd20800000000000000
+      internalID: 3293613073633696813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2b2c019172e94d0800000000000000
+      internalID: -3126018102739684652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b25f58d0ff1cc140800000000000000
+      internalID: 4741199626997027510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2247214a65e32610800000000000000
+      internalID: 1595370937541673517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599b4e32283404c20800000000000000
+      internalID: 3188622762405312917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626bd91290da70bc0800000000000000
+      internalID: -3816891904442911194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1759b6be159b19aa0800000000000000
+      internalID: -6155935454145571471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4220f0d53cec6cc40800000000000000
+      internalID: 5532336530746442276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f56b8baec44b2f70800000000000000
+      internalID: 9163493521247397366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a223af4baf53ba6b0800000000000000
+      internalID: -5284070386894753238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7d1cc0d8857f460800000000000000
+      internalID: 7275381085867988974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fce8bfb7a824bce0800000000000000
+      internalID: -1390441684009423626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9832939e572c56b0800000000000000
+      internalID: -5306322973793044323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89142748c88219c0800000000000000
+      internalID: -3957950728736859764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225f61966a09dcad0800000000000000
+      internalID: -2680327158813493982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9445825e5eeb3b190800000000000000
+      internalID: -7947799022777379767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d9a7a1161093730800000000000000
+      internalID: 3979213262326242662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12e46409f77c7b80800000000000000
+      internalID: -8395703693921164770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711abc7256f918e70800000000000000
+      internalID: 9115742377582764311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d689d93c0347a42d0800000000000000
+      internalID: -3293692424678958995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c166021f0b836f0800000000000000
+      internalID: -704618792006312864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8debbbc81e82e910800000000000000
+      internalID: 1865209432833256843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265a27ac42e6759c0800000000000000
+      internalID: -3938558244817820318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a84373ccd9beb30800000000000000
+      internalID: 4317718168189831807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2183c3383c8c56590800000000000000
+      internalID: -7681512847364573166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87b3d0ed7f5f6310800000000000000
+      internalID: 1400443003383035790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3576f3b21da5420800000000000000
+      internalID: 2619636116946899959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61d942332b668060800000000000000
+      internalID: 6955364473432035693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_45
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70780ce275a967070800000000000000
+      internalID: 8103834278736987911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_46
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95939faaf1a98290800000000000000
+      internalID: -7887595174303132259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93af970ba6e322d0800000000000000
+      internalID: -3304544079318113379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5bd846a9f9042d0800000000000000
+      internalID: -3296459441774414379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd03dadd559607410800000000000000
+      internalID: 1472792895662403804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1853e5b910b3c9e0800000000000000
+      internalID: -1602243417941518309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d214d568b7228430800000000000000
+      internalID: 3783630309880500945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834c976179374bd50800000000000000
+      internalID: 6752148834089550904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0665a1800d1e98e40800000000000000
+      internalID: 5659302690373129824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44af7ddac2458360800000000000000
+      internalID: 7171211420724339789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4c7abf8cb502bc0800000000000000
+      internalID: -3809944365981776704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48c12b3bbb004010800000000000000
+      internalID: 1170948801895188555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef0bc79edcffa330800000000000000
+      internalID: 3724473449818296292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac355f42f697c750800000000000000
+      internalID: 6325190169122389158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b281aff7bb98c03e0800000000000000
+      internalID: -2086141088980395989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350642ed87a2c2e10800000000000000
+      internalID: 2174159418724474963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_61
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2873103f2d87916f0800000000000000
+      internalID: -713406218546104446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_62
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e20010546200780800000000000000
+      internalID: -8718926800777892198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_63
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5257589b50affb0800000000000000
+      internalID: -4613368573921516041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530daafac1e8c01c0800000000000000
+      internalID: -4536094470811496395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_65
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ef697b0565eb340800000000000000
+      internalID: 4881433950793694792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cf1e55fc9313b30800000000000000
+      internalID: 4265253884758457402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_67
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a35303b22f7cac0800000000000000
+      internalID: -3834830290376377855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453dded84922e70e0800000000000000
+      internalID: -2270339140716473516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4053073d6afba7760800000000000000
+      internalID: 7456482856298099972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c561ec8093a4aefa0800000000000000
+      internalID: -5770718363700554148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb9bd684345420f0800000000000000
+      internalID: -1142695820867691532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d2e1504c96b4d00800000000000000
+      internalID: 957975636366732596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f702bd4b15a7bdfb0800000000000000
+      internalID: -4621966101220482945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37428eeb1e23c9750800000000000000
+      internalID: 6312976722818507891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_75
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b02742e404b5100800000000000000
+      internalID: 97742521281678105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f56aa1b8f9cded0800000000000000
+      internalID: -2387858282616824008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_77
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ddfd09198300910800000000000000
+      internalID: 1801502048800202090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38f4f5db3b5c7ab0800000000000000
+      internalID: -5009028372992034756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_79
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a276c030cf69ab440800000000000000
+      internalID: 4952436749374351146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750f184b03f530980800000000000000
+      internalID: -8573904602791808937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796c5c4874fb19a40800000000000000
+      internalID: 5373286144320849559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263a9efd2fdd84570800000000000000
+      internalID: 8451248735969190754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184f20e062a13fc30800000000000000
+      internalID: 4391882812362519681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd83eedd42cab0d0800000000000000
+      internalID: -3406196528444633612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adceb164684bb80e0800000000000000
+      internalID: -2266519498656060198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba44ce5ed4a113a0800000000000000
+      internalID: -6696389895943599433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c807ef7b91975e0800000000000000
+      internalID: -1911468288803566527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e17b9ada56bc5610800000000000000
+      internalID: 1611363268022727141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe988d086fb592c40800000000000000
+      internalID: 5488018735209417199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3856d1e29460923d0800000000000000
+      internalID: -3231044346285562493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_91
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758035a8804f82070800000000000000
+      internalID: 8081977848833968215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7317d61bb585a40800000000000000
+      internalID: 5357132574360680384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_93
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970a62cbf3f5612b0800000000000000
+      internalID: -5614195158126518151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_94
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d94163cd836f950800000000000000
+      internalID: 6482431232097688932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_95
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccd2f9789855f7f0800000000000000
+      internalID: -579459565143008049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294213f9119076e40800000000000000
+      internalID: 5649494228849468562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_97
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061b3158d39fe1480800000000000000
+      internalID: -8926423368780762784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_98
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06be9091d4bddbe0800000000000000
+      internalID: -1450804692775946742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_99
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa96b76ab04af2f80800000000000000
+      internalID: -8129098432435754577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_100
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed087ba1b6619ee0800000000000000
+      internalID: -1256109907787641372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_101
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76d426a377e71530800000000000000
+      internalID: 3825780892369213050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_102
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9155d9c1f8509e880800000000000000
+      internalID: -8581321502759234279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_103
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f6807fc6563fa10800000000000000
+      internalID: 1942007383002214154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba38624ce9e24690800000000000000
+      internalID: -7619270418621777225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_105
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdc562d49b50a3b0800000000000000
+      internalID: -5503298049903571515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_106
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23492b4480ae7700800000000000000
+      internalID: 540045495388160812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_107
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044e6659830ba2480800000000000000
+      internalID: -8923125954610011072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc55096432f5d690800000000000000
+      internalID: -7577884491066811202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_109
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9b9aa65dad53400800000000000000
+      internalID: 303389160069773787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_110
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab188a81f2ed24cf0800000000000000
+      internalID: -269408733830282822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_111
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be7307de80ceb4e0800000000000000
+      internalID: -1963920667761738059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981ff9c0d56d8bda0800000000000000
+      internalID: -5928753214301146743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_113
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e705e4fa0ffac90800000000000000
+      internalID: -7156236647144587674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_114
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d6882fff076c1c0800000000000000
+      internalID: -4483772134412751600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_115
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45da58be431c4a750800000000000000
+      internalID: 6315385010514144596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_116
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f2305cf0c4296b0800000000000000
+      internalID: -5291082981593370792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_117
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c29f6c9fab0712a0800000000000000
+      internalID: -6766927066229140794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_118
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c97a65141726c690800000000000000
+      internalID: -7582329955419522616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_119
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a75b852c72ebf30800000000000000
+      internalID: 4593152385629911581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_120
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67d1dadabc904160800000000000000
+      internalID: 7007773346537527147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_121
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4dc68a38f1f64d0800000000000000
+      internalID: -3139255764927064841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_122
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34414b29b4354cf0800000000000000
+      internalID: -268750632859384774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_123
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bb0c4b317723fa0800000000000000
+      internalID: -5822460441716016317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_124
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c26f69fa64c0870800000000000000
+      internalID: 8650366704237816847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_125
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851134220d5438cc0800000000000000
+      internalID: -3710044907792821928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_126
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560d97b55fdf244a0800000000000000
+      internalID: -6610442072782942107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_127
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6229b022d48838460800000000000000
+      internalID: 7242782490606932518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9021fa25c1df210800000000000000
+      internalID: 1368281003240589757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_129
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698e0769266c3f140800000000000000
+      internalID: 4752360158539081878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_130
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdad43a31344bbf70800000000000000
+      internalID: 9204025241682369247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_131
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6090933d338b34030800000000000000
+      internalID: 3477825869986728198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_132
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a54991ec73fe180800000000000000
+      internalID: -9083980565051057586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_133
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3be6684ec867de00800000000000000
+      internalID: 1069438671711038270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_134
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfc5d5b7171ac980800000000000000
+      internalID: -8517970354615496760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_135
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8c526f4ab838930800000000000000
+      internalID: 4144309622731557077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83e6a2197ea6ad50800000000000000
+      internalID: 6748272926688469901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_137
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4082d1f0421f540800000000000000
+      internalID: 5039849105336566944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_138
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b84e4ef1d929fae0800000000000000
+      internalID: -1515133817742014281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_139
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a664eaff0f1ebc0800000000000000
+      internalID: -3755455633319105982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_140
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fe39b6183ae2ff0800000000000000
+      internalID: -58929968858271883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_141
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9547a571566643850800000000000000
+      internalID: 6355817558496146521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_142
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc513ae6ebe4be630800000000000000
+      internalID: 3957343277382047180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_143
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6631e6b2baff5a1d0800000000000000
+      internalID: -3339982437992230042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecc64bf7b02f17c0800000000000000
+      internalID: -4098521161317036830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_145
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a33536090d062c0800000000000000
+      internalID: -4440319914027042172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_146
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8851a2d97390141e0800000000000000
+      internalID: -2215479407224941176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_147
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30d97ce3c58a3e80800000000000000
+      internalID: -8198093095142043587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_148
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444c11817549244f0800000000000000
+      internalID: -845950678205348796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_149
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf211229b5256a90800000000000000
+      internalID: -7321404142150144056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5310dcf1871393f00800000000000000
+      internalID: 1096962376240791861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_151
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dab23387a601160800000000000000
+      internalID: 6994207285793500462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_152
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff68b36b073a7a910800000000000000
+      internalID: 1848625876547897087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_153
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352c35c5e8ec97620800000000000000
+      internalID: 2772474156452921939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_154
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7151bdcf39cd220800000000000000
+      internalID: 2512045406382528476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_155
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d8a36cd8de9c7b0800000000000000
+      internalID: -5203366701277999750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_156
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e906658796456e0800000000000000
+      internalID: -1849737581376266679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_157
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d121a8304ae493160800000000000000
+      internalID: 7005717161692500509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_158
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300d2d79314d96f30800000000000000
+      internalID: 4569416477560721411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_159
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4e8a8d22dc37780800000000000000
+      internalID: -8686373706720025360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3867327e0968aa40800000000000000
+      internalID: 5379665265660749884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_161
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5384ecd416f925bb0800000000000000
+      internalID: -4948717800260745163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_162
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9beea2be720a820800000000000000
+      internalID: 2927383648781908388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_163
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7232492d7ddbc6ea0800000000000000
+      internalID: -5878114678976797913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_164
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3706bb996b3abc6e0800000000000000
+      internalID: -1816178020055293837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_165
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0527783a91bc11c0800000000000000
+      internalID: -4531551849111149298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_166
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef799d49af1105d0800000000000000
+      internalID: -3098160256642351121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_167
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05702e52c3dee310800000000000000
+      internalID: 1436318162934068491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_168
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c7f6d0803d21b20800000000000000
+      internalID: 3103775124750302314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_169
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367b1bf6d2c8027f0800000000000000
+      internalID: -639357020311275677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_170
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cacd64475dc0d60800000000000000
+      internalID: 7857890145236462727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_171
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0b27ed29fa2a610800000000000000
+      internalID: 1631059060393685163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_172
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd0571e05889b650800000000000000
+      internalID: 6249175838914579891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_173
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96a18c87fa9375a0800000000000000
+      internalID: -6524701047124810085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_174
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59d05848ff6d1120800000000000000
+      internalID: 2386186489732061533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_175
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7e84777061371a0800000000000000
+      internalID: -6813077589959579712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28986547c73b6f80800000000000000
+      internalID: -8112328974775314389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_177
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edf5c4f5bbecef30800000000000000
+      internalID: 4606315685621399016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_178
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a1e673f3b2d5330800000000000000
+      internalID: 3701162019281312296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_179
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ade47a578ef30f80800000000000000
+      internalID: -8141383844064072282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_180
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98eecdd9a43b74c80800000000000000
+      internalID: -8338499051995730295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_181
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19e6ff8ad65c4900800000000000000
+      internalID: 670005941289543964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_182
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebf78ea364d3a3d0800000000000000
+      internalID: -3196477785907921949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_183
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f429fbd1dc4a8f0800000000000000
+      internalID: -530073328471093485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_184
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f518e0ea57efb80800000000000000
+      internalID: -8359114467924943038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_185
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4221cb91e3165380800000000000000
+      internalID: -8982970547042180530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_186
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27046a7bcf3726650800000000000000
+      internalID: 6224665164229525618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_187
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e26d1d8763b95f0800000000000000
+      internalID: -748945020482605432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_188
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd44466251cdced60800000000000000
+      internalID: 7920947828034389211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_189
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53533e51a419c8bc0800000000000000
+      internalID: -3779486239889869515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_190
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1266e373ffd98d9e0800000000000000
+      internalID: -1596352348433783263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_191
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfad04946c98d0d0800000000000000
+      internalID: -3397793963056451639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a7bc5a7ea25a9a0800000000000000
+      internalID: -6222520135735084468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_193
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bf39faedb07ed10800000000000000
+      internalID: 2154703997776427887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_194
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bc54bb46bb1c6a0800000000000000
+      internalID: -6430652751595320424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_195
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5f0e402d096d7e0800000000000000
+      internalID: -1741044974232734247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_196
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa87da9fb7a793c00800000000000000
+      internalID: 880869875016104106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_197
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161a63c525747c820800000000000000
+      internalID: 2938395700942512481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_198
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db70ae1ef75ffae20800000000000000
+      internalID: 3364177376268912573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_199
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b263c9755d1ef3f20800000000000000
+      internalID: 3404688149729523243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_200
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d14c8db19446050800000000000000
+      internalID: 5792835404654976266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_201
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc8cdb71a8a7ced0800000000000000
+      internalID: -2393759265402876723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_202
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756e2f1333116db30800000000000000
+      internalID: 4311652604832835159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_203
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8290a2f31eead9e70800000000000000
+      internalID: 9123640702573087016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_204
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cb615bcf65f6620800000000000000
+      internalID: 2769527939226057885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_205
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e888ec9a87d72de60800000000000000
+      internalID: 7985583046479743118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_206
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0995ece4aa72f79f0800000000000000
+      internalID: -468612223803172464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_207
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd6603e78fd3b290800000000000000
+      internalID: -7875705548618437154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33968fc54bb6a1b50800000000000000
+      internalID: 6564677829243988275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_209
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77adffee9456d2080800000000000000
+      internalID: -9210594294686033289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_210
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562df327ea57e7580800000000000000
+      internalID: -8827488827498048923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_211
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3732f8ebcc6d726e0800000000000000
+      internalID: -1862283746035686541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_212
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb953387ee18dc4b0800000000000000
+      internalID: -5418531915438007874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_213
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd06d44621509afa0800000000000000
+      internalID: -5789090269457719076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_214
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faf8b0a38b786dd0800000000000000
+      internalID: -2492606588482159884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_215
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0c911d051b98080800000000000000
+      internalID: -9184615004381790016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_216
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f9a6faf814fff40800000000000000
+      internalID: 5764398133436653362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_217
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adccca8175fecf10800000000000000
+      internalID: 2292039128386948516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_218
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d6203b898105e10800000000000000
+      internalID: 2184272863392066973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_219
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc86fd07ef330dcf0800000000000000
+      internalID: -229626413087495988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_220
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc23a5694ff9fff0800000000000000
+      internalID: -1689634134086441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_221
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3858d487c7710ff00800000000000000
+      internalID: 1148443728341206403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_222
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b94df76ce46081f0800000000000000
+      internalID: -1044724147030242888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_223
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e67f8e1c55131db0800000000000000
+      internalID: -4822487290589776151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f93bdb4f1c9bc180800000000000000
+      internalID: -9094003364314007047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_225
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173d0d599c7e86b20800000000000000
+      internalID: 3128004794196743025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_226
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f374f6fbce6f2e5c0800000000000000
+      internalID: -4187513206816684225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_227
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15988ca5d46c68c30800000000000000
+      internalID: 4361391324692777297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_228
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93bd33a5d4ca7100800000000000000
+      internalID: 106613963042435998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_229
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b33005c3cd233e70800000000000000
+      internalID: 9093662391438160819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_230
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1dc32565d406740800000000000000
+      internalID: 5143195807599350198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_231
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cae3d383c1c8fba0800000000000000
+      internalID: -6054876653525144889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_232
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f135edd0ad8ce5cc0800000000000000
+      internalID: -3720315403300351201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_233
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bf3575d2f28dc70800000000000000
+      internalID: 8995992127457721183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_234
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23138ab5ae6636b20800000000000000
+      internalID: 3126455723071385906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_235
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbde9dd9148420fb0800000000000000
+      internalID: -4683101215853515331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_236
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f725d3d78cee987b0800000000000000
+      internalID: -5221379748097338753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_237
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3440a40434f6b7d10800000000000000
+      internalID: 2124413983867405379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_238
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25e48569c8fd5790800000000000000
+      internalID: -7539596657273019092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_239
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a667e345eee9810800000000000000
+      internalID: 1774117348823165585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5d9923ba36354a0800000000000000
+      internalID: -6605826641482885649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_241
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb462732ed87f3a0800000000000000
+      internalID: -6631675923552384030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_242
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbaafb2c368598e80800000000000000
+      internalID: -8175906463022077252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_243
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e84ce0733577e4c0800000000000000
+      internalID: -4258306058857199385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_244
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276d30a07d92b9330800000000000000
+      internalID: 3718611920887207538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_245
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65f0f48e0b1d0900800000000000000
+      internalID: 652207270212466026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_246
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d939d7de3b0d7f00800000000000000
+      internalID: 1116060647194966489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_247
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f00d4601d767a80800000000000000
+      internalID: -8469444539859333277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_248
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5d45b70cc5ce660800000000000000
+      internalID: 7416404668144997805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_249
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360b5056735932e90800000000000000
+      internalID: -7051628526381453213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_250
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dca62fd988b9f7a0800000000000000
+      internalID: -6342835697880748839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_251
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcec783218e6f590800000000000000
+      internalID: -7640664552832701232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_252
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9ac07360b87f2d0800000000000000
+      internalID: -3244972147687511625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_253
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d6f06c6206a2fd0800000000000000
+      internalID: -2365972934581850806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_254
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b674956711f5d760800000000000000
+      internalID: 7482151438736717494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminal16x16_gs_ro_255
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0a37cac0d7d40e0800000000000000
+      internalID: -2284031942620634970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

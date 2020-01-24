@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelUserStore">
+    <attachedFolders />
+    <explicitIncludes>
+      <Path>Assets</Path>
+      <Path>Library/PackageCache/com.unity.2d.pixel-perfect@2.0.4</Path>
+      <Path>Library/PackageCache/com.unity.build@0.1.0-preview.1</Path>
+      <Path>Library/PackageCache/com.unity.burst@1.2.0</Path>
+      <Path>Library/PackageCache/com.unity.collab-proxy@1.2.16</Path>
+      <Path>Library/PackageCache/com.unity.collections@0.5.0-preview.9</Path>
+      <Path>Library/PackageCache/com.unity.entities@0.5.0-preview.17</Path>
+      <Path>Library/PackageCache/com.unity.ext.nunit@1.0.0</Path>
+      <Path>Library/PackageCache/com.unity.ide.rider@1.1.4</Path>
+      <Path>Library/PackageCache/com.unity.jobs@0.2.3-preview.9</Path>
+      <Path>Library/PackageCache/com.unity.mathematics@1.1.0</Path>
+      <Path>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0-preview</Path>
+      <Path>Library/PackageCache/com.unity.properties@0.10.3-preview</Path>
+      <Path>Library/PackageCache/com.unity.scriptablebuildpipeline@1.6.3-preview</Path>
+      <Path>Library/PackageCache/com.unity.searcher@4.0.9</Path>
+      <Path>Library/PackageCache/com.unity.serialization@0.6.3-preview</Path>
+      <Path>Library/PackageCache/com.unity.test-framework.performance@2.0.6-preview</Path>
+      <Path>Library/PackageCache/com.unity.test-framework@1.1.11</Path>
+      <Path>Library/PackageCache/com.unity.textmeshpro@2.0.1</Path>
+      <Path>Library/PackageCache/com.unity.timeline@1.2.10</Path>
+      <Path>Library/PackageCache/nuget.mono-cecil@0.1.6-preview</Path>
+      <Path>ProjectSettings</Path>
+    </explicitIncludes>
+    <explicitExcludes>
+      <Path>.idea</Path>
+      <Path>Library</Path>
+      <Path>Logs</Path>
+      <Path>Temp</Path>
+      <Path>obj</Path>
+    </explicitExcludes>
+  </component>
+</project>
