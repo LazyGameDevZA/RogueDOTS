@@ -9,7 +9,7 @@ At present the library is still in development and there will likely be somewhat
 At present getting started is slightly involved. To see how everything in this repository works you'll have to be using Unity 2019.3.0f5 or later.
 
 1. Open the project in Unity and make sure all packages import correctly.
-2. Open the scene named "PixelPerfectRenderingScene" In the embedded package [LazyGameDevZA's RogueDOTS Terminal Renderer](/Packages/za.co.lazygamedev.rogue-dots.terminal-renderer)
+2. Open the scene named "PixelPerfectRenderingScene" In the embedded package [LazyGameDevZA's RogueDOTS Terminal Renderer](/Packages/za.co.lazygamedev.rogue-dots/LazyGameDevZA.RogueDOTS.Terminal.Rendering)
 3. Run from the editor.
 
 The numpad, arrow keys or vi keys will all work for navigating the player character through the world. 

@@ -54,7 +54,7 @@ namespace LazyGameDevZA.RogueDOTS.TerminalRenderer
             entitiesRenderer.sortingOrder = 1;
 
             var objects = AssetDatabase.LoadAllAssetRepresentationsAtPath(
-                "Packages/za.co.lazygamedev.rogue-dots.terminal-renderer/LazyGameDevZA.RogueDOTS.Terminal.Rendering/Font/terminal16x16_gs_ro.png");
+                "Packages/za.co.lazygamedev.rogue-dots/LazyGameDevZA.RogueDOTS.Terminal.Rendering/Font/terminal16x16_gs_ro.png");
             this.glyphs = Array.ConvertAll(objects, item => (Sprite)item);
             
             var floorTileColor = new Renderable.Colour(0f, 0.5f, 0.5f);

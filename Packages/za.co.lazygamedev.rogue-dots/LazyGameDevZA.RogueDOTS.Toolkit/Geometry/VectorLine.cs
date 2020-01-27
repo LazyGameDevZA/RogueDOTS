@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using static Unity.Mathematics.math;
 
-namespace LazyGameDevZA.RogueDOTS.Geometry
+namespace LazyGameDevZA.RogueDOTS.Toolkit.Geometry
 {
     public partial struct VectorLine
     {
@@ -50,12 +50,13 @@ namespace LazyGameDevZA.RogueDOTS.Geometry
 
             public Enumerator(ref VectorLine vectorLine)
             {
-                this.end = vectorLine.end;
-                this.currentPos = new float2(vectorLine.start) + new float2(0.5f);
+                var currentPos = new float2(vectorLine.start) + new float2(0.5f);
                 var destination = new float2(vectorLine.end) + new float2(0.5f);
+                var slope = normalize(destination - currentPos);
 
-                this.slope = normalize(destination - this.currentPos);
-
+                this.end = vectorLine.end;
+                this.currentPos = currentPos;
+                this.slope = slope;
                 this.finished = false;
                 this.reallyFinished = false;
                 this.current = null;

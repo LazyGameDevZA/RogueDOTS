@@ -1,16 +1,11 @@
 {
-    "name": "LazyGameDevZA.RogueDOTS",
+    "name": "LazyGameDevZA.RogueDOTS.Toolkit",
     "references": [
-        "Unity.Burst",
-        "Unity.Collections",
-        "Unity.Entities",
-        "Unity.Entities.Hybrid",
-        "Unity.Mathematics",
-        "LazyGameDevZA.RogueDOTS.Toolkit"
+        "Unity.Mathematics"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
-    "allowUnsafeCode": false,
+    "allowUnsafeCode": true,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,

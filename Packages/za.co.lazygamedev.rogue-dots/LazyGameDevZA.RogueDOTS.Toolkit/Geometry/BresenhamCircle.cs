@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using Unity.Mathematics;
 using UnityEngine.Assertions;
 
-namespace LazyGameDevZA.RogueDOTS.Geometry
+namespace LazyGameDevZA.RogueDOTS.Toolkit.Geometry
 {
     public partial struct BresenhamCircle
     {
@@ -17,13 +17,10 @@ namespace LazyGameDevZA.RogueDOTS.Geometry
     public partial struct BresenhamCircle
     {
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static BresenhamCircle New(int2 center, int radius)
+        public BresenhamCircle(int2 center, int radius)
         {
-            return new BresenhamCircle
-            {
-                center = center,
-                radius = radius
-            };
+            this.center = center;
+            this.radius = radius;
         }
     }
 
@@ -39,8 +36,8 @@ namespace LazyGameDevZA.RogueDOTS.Geometry
 
         public struct Enumerator : IEnumerator<int2>, IEnumerator, IDisposable
         {
-            private int x, y;
             private readonly int2 center;
+            private int x, y;
             private int radius;
             private int error;
             private byte quadrant;
@@ -73,13 +70,13 @@ namespace LazyGameDevZA.RogueDOTS.Geometry
                             point = new int2(this.center.x - this.x, this.center.y + this.y);
                             break;
                         case 2:
-                            point = new int2(this.center.x - this.x, this.center.y - this.y);
+                            point = new int2(this.center.x - this.y, this.center.y - this.x);
                             break;
                         case 3:
                             point = new int2(this.center.x + this.x, this.center.y - this.y);
                             break;
                         case 4:
-                            point = new int2(this.center.x + this.x, this.center.y + this.y);
+                            point = new int2(this.center.x + this.y, this.center.y + this.x);
                             break;
                         default:
                             Assert.IsTrue(false, "quadrant value was out of range");
