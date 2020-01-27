@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using LazyGameDevZA.RogueDOTS.Components;
 using Unity.Entities;
 using Unity.Jobs;
+using Unity.Profiling;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -16,6 +17,9 @@ namespace LazyGameDevZA.RogueDOTS.TerminalRenderer
     [AlwaysSynchronizeSystem]
     public class RenderWorldSystem : JobComponentSystem
     {
+        private static ProfilerMarker renderMapMarker = new ProfilerMarker($"{nameof(RenderWorldSystem)}_RenderMap"); 
+        private static ProfilerMarker renderEntitiesMarker = new ProfilerMarker($"{nameof(RenderWorldSystem)}_RenderEntities");
+        
         private GameObject gridObject;
         private Tilemap map;
         private Tilemap entities;
@@ -23,8 +27,12 @@ namespace LazyGameDevZA.RogueDOTS.TerminalRenderer
         private Sprite[] glyphs;
 
         private Dictionary<Entity, Tile> tiles = new Dictionary<Entity, Tile>();
-        private Tile floorTile = new Tile();
-        private Tile wallTile = new Tile();
+        private readonly Tile floorTile = ScriptableObject.CreateInstance<Tile>();
+        private readonly Tile wallTile = ScriptableObject.CreateInstance<Tile>();
+        private readonly Tile greyFloorTile = ScriptableObject.CreateInstance<Tile>();
+        private readonly Tile greyWallTile = ScriptableObject.CreateInstance<Tile>();
+
+        private EntityQuery mapQuery;
 
         protected override void OnCreate()
         {
@@ -48,64 +56,93 @@ namespace LazyGameDevZA.RogueDOTS.TerminalRenderer
             var objects = AssetDatabase.LoadAllAssetRepresentationsAtPath(
                 "Packages/za.co.lazygamedev.rogue-dots.terminal-renderer/LazyGameDevZA.RogueDOTS.Terminal.Rendering/Font/terminal16x16_gs_ro.png");
             this.glyphs = Array.ConvertAll(objects, item => (Sprite)item);
+            
+            var floorTileColor = new Renderable.Colour(0f, 0.5f, 0.5f);
+            var greyFloorTileSprite = this.glyphs[(byte)'.'];
+            this.floorTile.sprite = greyFloorTileSprite;
+            this.floorTile.color = floorTileColor;
+            this.greyFloorTile.sprite = greyFloorTileSprite;
+            this.greyFloorTile.color = floorTileColor.ToGreyscale();
 
-            this.floorTile.sprite = this.glyphs[(byte)'.'];
-            this.floorTile.color = new Color(0.5f, 0.5f, 0.5f);
+            var wallTileColor = new Renderable.Colour(0f, 1f, 0f);
+            var wallTileSprite = this.glyphs[(byte)'#'];
+            this.wallTile.sprite = wallTileSprite;
+            this.wallTile.color = wallTileColor;
+            this.greyWallTile.sprite = wallTileSprite;
+            this.greyWallTile.color = wallTileColor.ToGreyscale();
 
-            this.wallTile.sprite = this.glyphs[(byte)'#'];
-            this.wallTile.color = new Color(0f, 1f, 0f);
+            this.mapQuery = this.EntityManager.CreateMapEntityQuery();
         }
 
         protected override JobHandle OnUpdate(JobHandle inputDependencies)
         {
-            this.map.ClearAllTiles();
+            var mapEntity = this.mapQuery.GetSingletonEntity();
+            var map = this.EntityManager.GetMap(mapEntity);
             
-            this.Entities.ForEach((DynamicBuffer<RogueTile> map) =>
+            this.Job
+                .WithCode(() =>
                 {
-                    int x = 0;
-                    int y = 0;
-                    foreach(var tile in map)
+                    renderMapMarker.Begin();
+                    this.map.ClearAllTiles();
+                    
+                    var x = 0;
+                    var y = 0;
+
+                    RogueTile tile;
+                    for(int idx = 0; idx < map.Tiles.Length; idx++)
                     {
-                        switch(tile.Type)
+                        tile = map.Tiles[idx];
+
+                        if(map.RevealedTiles[idx])
                         {
-                            case (TileType.Floor):
-                                this.map.SetTile(new Vector3Int(x, y, 0), this.floorTile);
-                                break;
-                            case (TileType.Wall):
-                                this.map.SetTile(new Vector3Int(x, y, 0), this.wallTile);
-                                break;
+                            switch(tile.Type)
+                            {
+                                case (TileType.Floor):
+                                    var floorTile = map.VisibleTiles[idx] ? this.floorTile : this.greyFloorTile;
+                                    this.map.SetTile(new Vector3Int(x, y, 0), floorTile);
+                                    break;
+                                case (TileType.Wall):
+                                    var wallTile = map.VisibleTiles[idx] ? this.wallTile : this.greyWallTile;
+                                    this.map.SetTile(new Vector3Int(x, y, 0), wallTile);
+                                    break;
+                            }
                         }
 
                         x += 1;
 
-                        if(x > 79)
+                        if(x > map.Width - 1)
                         {
                             x = 0;
                             y += 1;
                         }
                     }
+                    renderMapMarker.End();
                 })
                 .WithoutBurst()
                 .Run();
             
+            renderEntitiesMarker.Begin();
             this.entities.ClearAllTiles();
             
-            this.Entities.ForEach((in Entity entity, in Position position, in Renderable renderable) =>
+            this.Entities
+                .ForEach((in Entity entity, in Position position, in Renderable renderable) =>
                 {
                     if(!this.tiles.TryGetValue(entity, out var tile))
                     {
-                        this.tiles.Add(entity, tile = new Tile());
+                        this.tiles.Add(entity, tile = ScriptableObject.CreateInstance<Tile>());
                     }        
                     
                     tile.sprite = this.glyphs[renderable.Glyph];
                     tile.color = renderable.Foreground;
 
-                    this.entities.SetTile(new Vector3Int(position.X, position.Y, 0), tile);
+                    this.entities.SetTile(position.Value.AsVector3Int(), tile);
                 })
+                .WithChangeFilter<Position>()
                 .WithoutBurst()
                 .Run();
+            renderEntitiesMarker.End();
 
-            return inputDependencies;
+            return default;
         }
 
         protected override void OnDestroy()
