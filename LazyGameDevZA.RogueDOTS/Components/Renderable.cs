@@ -14,32 +14,31 @@ namespace LazyGameDevZA.RogueDOTS.Components
 
         public struct Colour
         {
-            public byte Red, Green, Blue;
+            public float Red, Green, Blue;
 
             public Colour(byte red, byte green, byte blue)
+            {
+                this.Red = red / 255f;
+                this.Green = green / 255f;
+                this.Blue = blue / 255f;
+            }
+
+            public Colour(float red, float green, float blue)
             {
                 this.Red = red;
                 this.Green = green;
                 this.Blue = blue;
             }
 
-            public static implicit operator Color(Colour colour)
+            public Colour ToGreyscale()
             {
-                var red = colour.Red / 255f;
-                var green = colour.Green / 255f;
-                var blue = colour.Blue / 255f;
-                
-                return new Color(red, green, blue);
-            }
+                var linear = this.Red * 0.2126f + this.Green * 0.7152f + this.Blue * 0.0722f;
+                return new Colour(linear, linear, linear);
+            } 
 
-            public static implicit operator Colour(Color color)
-            {
-                var red = (byte)math.clamp(color.r * 255, 0f, 255f);
-                var green = (byte)math.clamp(color.g * 255, 0f, 255f);
-                var blue = (byte)math.clamp(color.b * 255, 0f, 255f);
-                
-                return new Colour(red, green, blue);
-            }
+            public static implicit operator Color(Colour colour) => new Color(colour.Red, colour.Green, colour.Blue);
+
+            public static implicit operator Colour(Color color) => new Colour(color.r,color.g, color.b);
         }
 
         #endregion

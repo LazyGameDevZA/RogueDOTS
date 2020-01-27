@@ -1,97 +1,76 @@
 ﻿using System.Linq;
-using System.Runtime.CompilerServices;
 using LazyGameDevZA.RogueDOTS.Components;
 using Unity.Collections;
+using Unity.Entities;
 using Unity.Mathematics;
 using static Unity.Mathematics.math;
 
 namespace LazyGameDevZA.RogueDOTS
 {
-    public struct Rect
+    public partial struct Map
     {
-        public readonly int X1, X2, Y1, Y2;
+        private DynamicBuffer<Tile> tiles;
+        private DynamicBuffer<Rect> rooms;
 
-        public Rect(int x, int y, int w, int h)
+        public readonly int Width;
+        public readonly int Height;
+
+        private DynamicBuffer<RevealedTile> revealedTiles;
+        private DynamicBuffer<VisibleTile> visibleTiles;
+
+        public NativeArray<Tile> Tiles => this.tiles.AsNativeArray();
+        public NativeArray<Rect> Rooms => this.rooms.AsNativeArray();
+        public NativeArray<RevealedTile> RevealedTiles => this.revealedTiles.AsNativeArray();
+        public NativeArray<VisibleTile> VisibleTiles => this.visibleTiles.AsNativeArray();
+
+        public Map(
+            DynamicBuffer<Tile> tiles,
+            DynamicBuffer<Rect> rooms,
+            int width,
+            int height,
+            DynamicBuffer<RevealedTile> revealedTiles,
+            DynamicBuffer<VisibleTile> visibleTiles)
         {
-            this.X1 = x;
-            this.Y1 = y;
-            this.X2 = x + w;
-            this.Y2 = y + h;
+            this.tiles = tiles;
+            this.rooms = rooms;
+            this.Width = width;
+            this.Height = height;
+            this.revealedTiles = revealedTiles;
+            this.visibleTiles = visibleTiles;
         }
-
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public bool Intersects(Rect other) => this.X1 <= other.X2 && this.X2 >= other.X1 && this.Y1 <= other.Y2 && this.Y2 >= other.Y1;
-
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public (int, int) Center() => ((this.X1 + this.X2) / 2, (this.Y1 + this.Y2) / 2);
     }
 
-    public static class Map
+    // Impl
+    public partial struct Map
     {
-        public const int Width = 80;
-        public const int Height = 50;
-        
-    
-        public static int xy_idx(int x, int y)
+        public int xy_idx(int x, int y)
         {
-            return y * 80 + x;
+            return y * this.Width + x;
         }
 
-        public static NativeArray<Tile> NewMapTest()
+        public static Map NewMapRoomsAndCorridors(EntityManager entityManager)
         {
-            var map = new NativeArray<Tile>(Width * Height, Allocator.Temp);
-
-            for(int x = 0; x < Width; x++)
-            {
-                map[xy_idx(x, 0)] = TileType.Wall;
-                map[xy_idx(x, 49)] = TileType.Wall;
-            }
-
-            for(int y = 0; y < Height; y++)
-            {
-                map[xy_idx(0, y)] = TileType.Wall;
-                map[xy_idx(79, y)] = TileType.Wall;
-            }
-
-            var random = new Random(32345);
-
-            for(int i = 0; i < 400; i++)
-            {
-                var x = random.RollDice(1, 79);
-                var y = random.RollDice(1, 49);
-                var idx = xy_idx(x, y);
-
-                if(idx != xy_idx(40, 25))
-                {
-                    map[idx] = TileType.Wall;
-                }
-            }
-
-            return map;
-        }
-
-        public static (NativeArray<Tile> map, NativeList<Rect> rooms) NewMapRoomsAndCorridors()
-        {
-            var map = CreateNewWithFill(TileType.Wall, Width * Height, Allocator.Temp);
+            const int width = 80;
+            const int height = 50;
 
             const int maxRooms = 30;
             const int minSize = 6;
             const int maxSize = 10;
-            var rooms = new NativeList<Rect>(maxRooms, Allocator.Temp);
-            
+            var map = entityManager.CreateMap(TileType.Wall, width, height, maxRooms);
+
             var random = new Random(32345);
 
             foreach(var _ in Enumerable.Range(0, maxRooms))
             {
                 var w = random.Range(minSize, maxSize);
                 var h = random.Range(minSize, maxSize);
-                var x = random.RollDice(1, Width - w - 1) - 1;
-                var y = random.RollDice(1, Height - h - 1) - 1;
+                var x = random.RollDice(1, width - w - 1) - 1;
+                var y = random.RollDice(1, height - h - 1) - 1;
                 var newRoom = new Rect(x, y, w, h);
 
                 var ok = true;
 
-                foreach(var otherRoom in rooms)
+                foreach(var otherRoom in map.rooms)
                 {
                     if(newRoom.Intersects(otherRoom))
                     {
@@ -101,35 +80,35 @@ namespace LazyGameDevZA.RogueDOTS
 
                 if(ok)
                 {
-                    ApplyRoomToMap(newRoom, map);
+                    map.ApplyRoomToMap(newRoom);
 
-                    if(rooms.Length != 0)
+                    if(map.rooms.Length != 0)
                     {
                         var (newX, newY) = newRoom.Center();
-                        var (prevX, prevY) = rooms[rooms.Length - 1].Center();
+                        var (prevX, prevY) = map.rooms[map.rooms.Length - 1].Center();
 
                         if(random.Range(0, 2) == 1)
                         {
-                            ApplyHorizontalTunnel(map, prevX, newX, prevY);
-                            ApplyVerticalTunnel(map, prevY, newY, newX);
+                            map.ApplyHorizontalTunnel(prevX, newX, prevY);
+                            map.ApplyVerticalTunnel(prevY, newY, newX);
                         }
                         else
                         {
-                            ApplyVerticalTunnel(map, prevY, newY, prevX);
-                            ApplyHorizontalTunnel(map, prevX, newX, newY);
+                            map.ApplyVerticalTunnel(prevY, newY, prevX);
+                            map.ApplyHorizontalTunnel(prevX, newX, newY);
                         }
                     }
-                    
-                    rooms.Add(newRoom);
+
+                    map.rooms.Add(newRoom);
                 }
             }
 
-            return (map, rooms);
+            return map;
         }
 
         private static NativeArray<Tile> CreateNewWithFill(TileType fill, int length, Allocator allocator)
         {
-            var map = new NativeArray<Tile>(length, allocator);
+            var map = new NativeArray<Tile>(length, allocator, NativeArrayOptions.UninitializedMemory);
 
             for(int i = 0; i < map.Length; i++)
             {
@@ -139,45 +118,72 @@ namespace LazyGameDevZA.RogueDOTS
             return map;
         }
 
-        private static void ApplyRoomToMap(Rect room, NativeArray<Tile> map)
+        private void ApplyRoomToMap(Rect room)
         {
             for(int y = room.Y1 + 1; y <= room.Y2; y++)
             {
                 for(int x = room.X1 + 1; x <= room.X2; x++)
                 {
-                    map[xy_idx(x, y)] = TileType.Floor;
+                    this.tiles[xy_idx(x, y)] = TileType.Floor;
                 }
             }
         }
 
-        private static void ApplyHorizontalTunnel(NativeArray<Tile> map, int x1, int x2, int y)
+        private void ApplyHorizontalTunnel(int x1, int x2, int y)
         {
-            var mapSize = Width * Height;
-            
+            var mapSize = this.Width * this.Height;
+
             for(int x = min(x1, x2); x <= max(x1, x2); x++)
             {
                 var idx = xy_idx(x, y);
 
                 if(idx > 0 && idx < mapSize)
                 {
-                    map[idx] = TileType.Floor;
+                    this.tiles[idx] = TileType.Floor;
                 }
             }
         }
 
-        private static void ApplyVerticalTunnel(NativeArray<Tile> map, int y1, int y2, int x)
+        private void ApplyVerticalTunnel(int y1, int y2, int x)
         {
             var mapSize = Width * Height;
-            
+
             for(int y = min(y1, y2); y <= max(y1, y2); y++)
             {
                 var idx = xy_idx(x, y);
 
                 if(idx > 0 && idx < mapSize)
                 {
-                    map[idx] = TileType.Floor;
+                    tiles[idx] = TileType.Floor;
                 }
             }
+        }
+    }
+
+    public partial struct Map: IBaseMap
+    {
+        public bool IsOpaque(int idx)
+        {
+            return this.tiles[idx].Type == TileType.Wall;
+        }
+    }
+
+    // Algorithm2D
+    public partial struct Map: IAlgorithm2D
+    {
+        public int point2DToIndex(int2 pt)
+        {
+            var bounds = this.Dimensions;
+
+            return pt.y * bounds.x + pt.x;
+        }
+
+        public int2 Dimensions => new int2(this.Width, this.Height);
+
+        public bool Inbounds(int2 pos)
+        {
+            var bounds = this.Dimensions;
+            return pos.x > 0 && pos.x < bounds.x && pos.y > 0 && pos.y < bounds.y;
         }
     }
 }
