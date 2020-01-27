@@ -3,7 +3,7 @@ using Unity.Entities;
 using Unity.Jobs;
 using Unity.Mathematics;
 using Unity.Profiling;
-using static LazyGameDevZA.RogueDOTS.FOV;
+using static LazyGameDevZA.RogueDOTS.Toolkit.FOV;
 
 namespace LazyGameDevZA.RogueDOTS.Systems
 {

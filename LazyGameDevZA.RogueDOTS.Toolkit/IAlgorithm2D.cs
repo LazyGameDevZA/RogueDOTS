@@ -1,6 +1,6 @@
 ﻿using Unity.Mathematics;
 
-namespace LazyGameDevZA.RogueDOTS
+namespace LazyGameDevZA.RogueDOTS.Toolkit
 {
     public interface IAlgorithm2D
     {

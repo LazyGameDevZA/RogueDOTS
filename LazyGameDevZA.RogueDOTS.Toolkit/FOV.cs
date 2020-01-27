@@ -1,10 +1,9 @@
-﻿using System;
-using LazyGameDevZA.RogueDOTS.Collections;
-using LazyGameDevZA.RogueDOTS.Geometry;
+﻿using LazyGameDevZA.RogueDOTS.Toolkit.Collections;
+using LazyGameDevZA.RogueDOTS.Toolkit.Geometry;
 using Unity.Collections;
 using Unity.Mathematics;
 
-namespace LazyGameDevZA.RogueDOTS
+namespace LazyGameDevZA.RogueDOTS.Toolkit
 {
     public static class FOV
     {
@@ -13,13 +12,11 @@ namespace LazyGameDevZA.RogueDOTS
         {
             var visiblePoints = new NativeHashSet<int2>( range * 2 * range * 2, Allocator.Temp);
 
-            var iterator = BresenhamCircle.New(start, range).GetEnumerator();
-            int2 point;
+            var iterator = new BresenhamCircle(start, range).GetEnumerator();
             
             while(iterator.MoveNext())
             {
-                point = iterator.Current;
-                ScanFovLine(start, point, fovCheck, ref visiblePoints);
+                ScanFovLine(start, iterator.Current, fovCheck, ref visiblePoints);
             }
             
             iterator.Dispose();

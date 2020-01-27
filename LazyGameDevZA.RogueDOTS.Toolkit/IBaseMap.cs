@@ -1,4 +1,4 @@
-﻿namespace LazyGameDevZA.RogueDOTS
+﻿namespace LazyGameDevZA.RogueDOTS.Toolkit
 {
     public interface IBaseMap
     {

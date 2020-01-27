@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using LazyGameDevZA.RogueDOTS.Components;
+using LazyGameDevZA.RogueDOTS.Toolkit;
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
@@ -58,14 +59,14 @@ namespace LazyGameDevZA.RogueDOTS
             const int maxSize = 10;
             var map = entityManager.CreateMap(TileType.Wall, width, height, maxRooms);
 
-            var random = new Random(32345);
+            var rng = RandomNumberGenerator.New();
 
             foreach(var _ in Enumerable.Range(0, maxRooms))
             {
-                var w = random.Range(minSize, maxSize);
-                var h = random.Range(minSize, maxSize);
-                var x = random.RollDice(1, width - w - 1) - 1;
-                var y = random.RollDice(1, height - h - 1) - 1;
+                var w = rng.Range(minSize, maxSize);
+                var h = rng.Range(minSize, maxSize);
+                var x = rng.RollDice(1, width - w - 1) - 1;
+                var y = rng.RollDice(1, height - h - 1) - 1;
                 var newRoom = new Rect(x, y, w, h);
 
                 var ok = true;
@@ -87,7 +88,7 @@ namespace LazyGameDevZA.RogueDOTS
                         var (newX, newY) = newRoom.Center();
                         var (prevX, prevY) = map.rooms[map.rooms.Length - 1].Center();
 
-                        if(random.Range(0, 2) == 1)
+                        if(rng.Range(0, 2) == 1)
                         {
                             map.ApplyHorizontalTunnel(prevX, newX, prevY);
                             map.ApplyVerticalTunnel(prevY, newY, newX);

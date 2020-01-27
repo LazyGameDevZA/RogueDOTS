@@ -8,7 +8,7 @@ using Unity.Collections.LowLevel.Unsafe;
 using Unity.Jobs;
 using Unity.Jobs.LowLevel.Unsafe;
 
-namespace LazyGameDevZA.RogueDOTS.Collections
+namespace LazyGameDevZA.RogueDOTS.Toolkit.Collections
 {
  /// <summary>
     /// The state of a <see cref="NativeHashSet{T}"/>. Shared among instances
