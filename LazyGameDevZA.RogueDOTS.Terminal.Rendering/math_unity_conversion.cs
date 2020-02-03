@@ -5,6 +5,6 @@ namespace LazyGameDevZA.RogueDOTS.TerminalRenderer
 {
     public static class int2Conversion
     {
-        public static Vector3Int AsVector3Int(this int2 v)     { return new Vector3Int(v.x, v.y, 0); }
+        public static Vector3Int AsVector3Int(this int2 v) => new Vector3Int(v.x, v.y, 0);
     }
 }
