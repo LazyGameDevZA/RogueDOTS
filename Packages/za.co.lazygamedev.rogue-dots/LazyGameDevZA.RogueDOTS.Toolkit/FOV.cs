@@ -12,7 +12,7 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit
         {
             var visiblePoints = new NativeHashSet<int2>( range * 2 * range * 2, Allocator.Temp);
 
-            var iterator = new BresenhamCircle(start, range).GetEnumerator();
+            var iterator = new BresenhamCircleNoDiag(start, range).GetEnumerator();
             
             while(iterator.MoveNext())
             {
