@@ -49,6 +49,11 @@ namespace LazyGameDevZA.RogueDOTS
             return y * this.Width + x;
         }
 
+        public int xy_idx(int2 position)
+        {
+            return xy_idx(position.x, position.y);
+        }
+
         public static Map NewMapRoomsAndCorridors(EntityManager entityManager)
         {
             const int width = 80;

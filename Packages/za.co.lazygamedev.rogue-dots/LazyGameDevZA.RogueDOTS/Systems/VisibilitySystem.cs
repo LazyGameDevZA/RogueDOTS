@@ -8,6 +8,7 @@ using static LazyGameDevZA.RogueDOTS.Toolkit.FOV;
 namespace LazyGameDevZA.RogueDOTS.Systems
 {
     [AlwaysSynchronizeSystem]
+    [UpdateInGroup(typeof(GameSystemsGroup))]
     public class VisibilitySystem: JobComponentSystem
     {
         private static ProfilerMarker jobMarker = new ProfilerMarker($"{nameof(VisibilitySystem)}_CalculateEntitiesVisibility");

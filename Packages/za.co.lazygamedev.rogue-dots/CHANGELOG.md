@@ -4,6 +4,20 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.2.0] - 2020-02-03
+
+Update focuses on starting with adding basic AI. At present monsters just shout at you when you enter their viewshed.
+
+### Added
+
+* Initial monster AI
+
+### Changed
+
+* Handling ticks based on input to drive game logic
+* Used a downscaled version of the font with the intent of scaling the font up for larger window sizes
+* Bumped the minimum Unity version
+
 ## [0.1.0] - 2020-01-27
 
 Basis of this version is to merge the two packages into one. The Terminal Rendering assembly definition ensures that it doesn't have be used for rendering and can potentially be replaced by another system completely.
