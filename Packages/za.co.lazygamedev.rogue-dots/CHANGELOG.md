@@ -4,6 +4,19 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.2.2] - 2020-02-04
+
+### Added
+
+* Tests to ensure that the initial Bresenham Circle with no diagonals state fix does actually work
+* Added a seperate room structure to handle the map data
+
+### Changed
+
+* Bresenham Circle with no diagonals initial state is now setup correctly
+* Fixed the FOV calculations causing the left and bottom edge to not be rendered
+* Changed the Rect structure to not be used directly in a DynamicBuffer, but rather be a dedicated Math construct
+
 ## [0.2.1] - 2020-02-04
 
 ### Added

@@ -18,9 +18,18 @@ namespace LazyGameDevZA.RogueDOTS.Components
     {
         Wall, Floor
     }
-    
+
     [InternalBufferCapacity(0)]
-    public struct Rect: IBufferElementData
+    public struct Room : IBufferElementData
+    {
+        public Rect Value;
+        
+        public static implicit operator Room(Rect value) => new Room{ Value = value };
+
+        public static implicit operator Rect(Room room) => room.Value;
+    }
+    
+    public struct Rect
     {
         public readonly int X1, X2, Y1, Y2;
 

@@ -11,7 +11,7 @@ namespace LazyGameDevZA.RogueDOTS
     public partial struct Map
     {
         private DynamicBuffer<Tile> tiles;
-        private DynamicBuffer<Rect> rooms;
+        private DynamicBuffer<Room> rooms;
 
         public readonly int Width;
         public readonly int Height;
@@ -20,13 +20,13 @@ namespace LazyGameDevZA.RogueDOTS
         private DynamicBuffer<VisibleTile> visibleTiles;
 
         public NativeArray<Tile> Tiles => this.tiles.AsNativeArray();
-        public NativeArray<Rect> Rooms => this.rooms.AsNativeArray();
+        public NativeArray<Rect> Rooms => this.rooms.Reinterpret<Rect>().AsNativeArray();
         public NativeArray<RevealedTile> RevealedTiles => this.revealedTiles.AsNativeArray();
         public NativeArray<VisibleTile> VisibleTiles => this.visibleTiles.AsNativeArray();
 
         public Map(
             DynamicBuffer<Tile> tiles,
-            DynamicBuffer<Rect> rooms,
+            DynamicBuffer<Room> rooms,
             int width,
             int height,
             DynamicBuffer<RevealedTile> revealedTiles,
@@ -64,8 +64,10 @@ namespace LazyGameDevZA.RogueDOTS
             const int maxSize = 10;
             var map = entityManager.CreateMap(TileType.Wall, width, height, maxRooms);
 
-            var rng = RandomNumberGenerator.New();
+            var rooms = map.rooms.Reinterpret<Rect>();
 
+            var rng = RandomNumberGenerator.New();
+            
             foreach(var _ in Enumerable.Range(0, maxRooms))
             {
                 var w = rng.Range(minSize, maxSize);
@@ -88,10 +90,10 @@ namespace LazyGameDevZA.RogueDOTS
                 {
                     map.ApplyRoomToMap(newRoom);
 
-                    if(map.rooms.Length != 0)
+                    if(rooms.Length != 0)
                     {
                         var (newX, newY) = newRoom.Center();
-                        var (prevX, prevY) = map.rooms[map.rooms.Length - 1].Center();
+                        var (prevX, prevY) = rooms[map.rooms.Length - 1].Center();
 
                         if(rng.Range(0, 2) == 1)
                         {
@@ -105,7 +107,7 @@ namespace LazyGameDevZA.RogueDOTS
                         }
                     }
 
-                    map.rooms.Add(newRoom);
+                    rooms.Add(newRoom);
                 }
             }
 
@@ -189,7 +191,7 @@ namespace LazyGameDevZA.RogueDOTS
         public bool Inbounds(int2 pos)
         {
             var bounds = this.Dimensions;
-            return pos.x > 0 && pos.x < bounds.x && pos.y > 0 && pos.y < bounds.y;
+            return pos.x >= 0 && pos.x < bounds.x && pos.y >= 0 && pos.y < bounds.y;
         }
     }
 }
