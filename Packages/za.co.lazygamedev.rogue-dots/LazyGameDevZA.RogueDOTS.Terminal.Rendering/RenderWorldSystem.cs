@@ -26,14 +26,15 @@ namespace LazyGameDevZA.RogueDOTS.TerminalRenderer
 
         private GameObject gridObject;
         private Tilemap map;
-        private Tilemap entities;
+        private Tilemap entitiesBackground;
+        private Tilemap entitiesForeground;
 
         private Sprite[] glyphs;
 
-        private readonly Dictionary<Entity, Tile> tiles = new Dictionary<Entity, Tile>();
+        private readonly Dictionary<Entity, (Tile foregroundTile, Tile backgroundTile)> tiles = new Dictionary<Entity, (Tile foregroundTile, Tile backgroundTile)>();
 
         private EntityQuery mapQuery;
-
+        
         protected override void OnCreate()
         {
             this.gridObject = new GameObject("Grid");
@@ -41,17 +42,9 @@ namespace LazyGameDevZA.RogueDOTS.TerminalRenderer
             grid.cellLayout = GridLayout.CellLayout.Rectangle;
             grid.cellSwizzle = GridLayout.CellSwizzle.XYZ;
 
-            var mapObject = new GameObject("Map");
-            mapObject.transform.parent = grid.transform;
-            this.map = mapObject.AddComponent<Tilemap>();
-            var mapRenderer = mapObject.AddComponent<TilemapRenderer>();
-            mapRenderer.sortingOrder = 0;
-
-            var entitiesObject = new GameObject("Entities");
-            entitiesObject.transform.parent = grid.transform;
-            this.entities = entitiesObject.AddComponent<Tilemap>();
-            var entitiesRenderer = entitiesObject.AddComponent<TilemapRenderer>();
-            entitiesRenderer.sortingOrder = 1;
+            this.map = CreateLayer("Map Foreground", 0, this.gridObject);
+            this.entitiesBackground = CreateLayer("Entities Background", 1, this.gridObject);
+            this.entitiesForeground = CreateLayer("Entities Foreground", 2, this.gridObject);
 
             var objects = AssetDatabase.LoadAllAssetRepresentationsAtPath(
                 "Packages/za.co.lazygamedev.rogue-dots/LazyGameDevZA.RogueDOTS.Terminal.Rendering/Font/terminal8x8.png");
@@ -123,7 +116,8 @@ namespace LazyGameDevZA.RogueDOTS.TerminalRenderer
                 .Run();
 
             renderEntitiesMarker.Begin();
-            this.entities.ClearAllTiles();
+            this.entitiesForeground.ClearAllTiles();
+            this.entitiesBackground.ClearAllTiles();
 
             this.Entities
                 .ForEach((in Entity entity, in Position position, in Renderable renderable) =>
@@ -132,15 +126,23 @@ namespace LazyGameDevZA.RogueDOTS.TerminalRenderer
 
                     if(map.VisibleTiles[idx].Value)
                     {
-                        if(!this.tiles.TryGetValue(entity, out var tile))
+                        if(!this.tiles.TryGetValue(entity, out var tileInfo))
                         {
-                            this.tiles.Add(entity, tile = ScriptableObject.CreateInstance<Tile>());
+                            var foregroundTile = ScriptableObject.CreateInstance<Tile>();
+                            var backgroundTile = ScriptableObject.CreateInstance<Tile>();
+                            backgroundTile.sprite = this.glyphs[219]; // 219 = █
+                            
+                            this.tiles.Add(entity, tileInfo = (foregroundTile, backgroundTile));
                         }
 
-                        tile.sprite = this.glyphs[renderable.Glyph];
-                        tile.color = renderable.Foreground;
+                        tileInfo.foregroundTile.sprite = this.glyphs[renderable.Glyph];
+                        tileInfo.foregroundTile.color = renderable.Foreground;
 
-                        this.entities.SetTile(position.Value.AsVector3Int(), tile);
+                        tileInfo.backgroundTile.color = renderable.Background;
+
+                        var pos = position.Value.AsVector3Int();
+                        this.entitiesForeground.SetTile(pos, tileInfo.foregroundTile);
+                        this.entitiesBackground.SetTile(pos, tileInfo.backgroundTile);
                     }
                 })
                 .WithoutBurst()
@@ -153,6 +155,17 @@ namespace LazyGameDevZA.RogueDOTS.TerminalRenderer
         protected override void OnDestroy()
         {
             Object.Destroy(this.gridObject);
+        }
+
+        private static Tilemap CreateLayer(string name, int layer, GameObject parent)
+        {
+            var gameObject = new GameObject(name);
+            gameObject.transform.parent = parent.transform;
+            var tilemap = gameObject.AddComponent<Tilemap>();
+            var renderer = gameObject.AddComponent<TilemapRenderer>();
+            renderer.sortingOrder = layer;
+
+            return tilemap;
         }
     }
 }
