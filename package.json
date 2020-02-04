@@ -1,6 +1,6 @@
 {
   "name": "za.co.lazygamedev.rogue-dots",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "displayName": "LazyGameDevZA RogueDOTS",
   "description": "A roguelike framework built using Unity's DOTS packages allowing for some building using the an Entity Component System archictecture approach.",
   "unity": "2019.3",

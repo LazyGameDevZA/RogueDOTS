@@ -13,7 +13,7 @@ namespace LazyGameDevZA.RogueDOTS
         {
             var entity = entityManager.CreateEntity(
                 typeof(Tile),
-                typeof(Rect),
+                typeof(Room),
                 typeof(MapDimensions),
                 typeof(RevealedTile),
                 typeof(VisibleTile));
@@ -23,7 +23,7 @@ namespace LazyGameDevZA.RogueDOTS
             var tileCount = height * width;
             tiles.Capacity = tileCount;
 
-            var rooms = entityManager.GetBuffer<Rect>(entity);
+            var rooms = entityManager.GetBuffer<Room>(entity);
             rooms.Capacity = maxRooms;
             
             entityManager.SetComponentData(entity, new MapDimensions { Width = width, Height = height });
@@ -47,7 +47,7 @@ namespace LazyGameDevZA.RogueDOTS
         public static Map GetMap(this EntityManager entityManager, Entity entity)
         {
             var tiles = entityManager.GetBuffer<Tile>(entity);
-            var rooms = entityManager.GetBuffer<Rect>(entity);
+            var rooms = entityManager.GetBuffer<Room>(entity);
             var dimensions = entityManager.GetComponentData<MapDimensions>(entity);
             var revealedTiles = entityManager.GetBuffer<RevealedTile>(entity);
             var visibleTiles = entityManager.GetBuffer<VisibleTile>(entity);

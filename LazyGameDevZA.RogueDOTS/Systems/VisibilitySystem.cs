@@ -41,7 +41,7 @@ namespace LazyGameDevZA.RogueDOTS.Systems
                         for(int i = 0; i < visibleTiles.Length; i++)
                         {
                             var p = visibleTiles[i].Value;
-                            if(p.x > 0 && p.x < map.Width - 1 && p.y > 0 && p.y < map.Width - 1)
+                            if(p.x >= 0 && p.x <= map.Width - 1 && p.y >= 0 && p.y <= map.Width - 1)
                             {
                                 continue;
                             }
