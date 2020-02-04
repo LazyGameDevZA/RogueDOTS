@@ -39,7 +39,6 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Geometry
         {
             private readonly int2 center;
             private int x, y;
-            private int radius;
             private int error;
             private byte quadrant;
             private int2? current;
@@ -50,11 +49,10 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Geometry
 
             public Enumerator(ref BresenhamCircleNoDiag bresenhamCircle)
             {
+                this.center = bresenhamCircle.center;
                 this.x = -bresenhamCircle.radius;
                 this.y = 0;
-                this.center = bresenhamCircle.center;
-                this.radius = bresenhamCircle.radius;
-                this.error = 2 - 2 * bresenhamCircle.radius;
+                this.error = 0;
                 this.quadrant = 1;
                 this.current = null;
             }
@@ -97,22 +95,6 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Geometry
                             this.error += this.y * 2 + 1;
                             this.y += 1;
                         }
-                        
-                        
-                        
-                        // this.radius = this.error;
-                        //
-                        // if(this.radius <= this.y)
-                        // {
-                        //     this.y += 1;
-                        //     this.error += this.y * 2 + 1;
-                        // }
-                        //
-                        // if(this.radius > this.x || this.error > this.y)
-                        // {
-                        //     this.x += 1;
-                        //     this.error += this.x * 2 + 1;
-                        // }
                     }
 
                     this.quadrant = (byte)(this.quadrant % 4 + 1);
