@@ -62,7 +62,7 @@ namespace LazyGameDevZA.RogueDOTS
         {
             return entityManager.CreateEntityQuery(
                 ComponentType.ReadOnly<Tile>(),
-                ComponentType.ReadOnly<Rect>(),
+                ComponentType.ReadOnly<Room>(),
                 ComponentType.ReadOnly<MapDimensions>(),
                 revealedTilesWriteAccess ? ComponentType.ReadWrite<RevealedTile>() : ComponentType.ReadOnly<RevealedTile>(),
                 visibleTilesWriteAccess ? ComponentType.ReadWrite<VisibleTile>() : ComponentType.ReadOnly<VisibleTile>());
