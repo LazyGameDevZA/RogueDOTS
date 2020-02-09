@@ -65,6 +65,7 @@ namespace LazyGameDevZA.RogueDOTS.TerminalRenderer
             this.greyWallTile.color = wallTileColor.ToGreyscale();
 
             this.mapQuery = this.EntityManager.CreateMapEntityQuery();
+            this.RequireForUpdate(this.mapQuery);
         }
 
         protected override JobHandle OnUpdate(JobHandle inputDependencies)

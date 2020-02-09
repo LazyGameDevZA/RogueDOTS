@@ -3,6 +3,7 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
+        "Unity.Collections",
         "Unity.Mathematics",
         "LazyGameDevZA.RogueDOTS.Toolkit"
     ],

@@ -1,8 +1,9 @@
 ﻿using LazyGameDevZA.RogueDOTS.Toolkit.Collections;
 using NUnit.Framework;
 using Unity.Collections;
-using Unity.Mathematics;
 using static LazyGameDevZA.RogueDOTS.Toolkit.FOV;
+using static Unity.Mathematics.math;
+using int2 = Unity.Mathematics.int2;
 
 namespace LazyGameDevZA.RogueDOTS.Toolkit.Tests
 {
@@ -32,7 +33,7 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Tests
                 {
                     if (ch == '@')
                     {
-                        return new int2(x, y);
+                        return int2(x, y);
                     }
 
                     x++;
@@ -41,7 +42,7 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Tests
                 y++;
             }
 
-            return new int2(0,0);
+            return int2.zero;
         }
 
         private partial struct Map
@@ -88,6 +89,16 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Tests
             {
                 return this.Tiles[idx];
             }
+
+            public NativeList<Exit> GetAvailableExits(int idx, NativeList<Exit> exits = default)
+            {
+                throw new System.NotImplementedException();
+            }
+
+            public float GetPathingDistance(int idx1, int idx2)
+            {
+                throw new System.NotImplementedException();
+            }
         }
         
         private partial struct Map: IAlgorithm2D
@@ -100,7 +111,7 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Tests
                 return pt.y * bounds.x + pt.x;
             }
 
-            public int2 Dimensions => new int2(testMapW, testMapH);
+            public int2 Dimensions => int2(testMapW, testMapH);
 
             public bool Inbounds(int2 pos)
             {
@@ -128,7 +139,7 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Tests
         {
             var map = Map.New();
 
-            var visible = FieldOfView(new int2(10, 10), 8, map);
+            var visible = FieldOfView(int2(10, 10), 8, map);
 
             Assert.That(HasUniqueElements(visible));
         }
@@ -138,7 +149,7 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Tests
         {
             var map = Map.New();
 
-            var visible = FieldOfView(new int2(2, 2), 8, map);
+            var visible = FieldOfView(int2(2, 2), 8, map);
 
             foreach(var t in visible)
             {

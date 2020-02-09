@@ -11,14 +11,13 @@ namespace LazyGameDevZA.RogueDOTS.Systems
     [UpdateInGroup(typeof(GameSystemsGroup))]
     public class VisibilitySystem: JobComponentSystem
     {
-        private static ProfilerMarker jobMarker = new ProfilerMarker($"{nameof(VisibilitySystem)}_CalculateEntitiesVisibility");
-        
         private EntityQuery mapQuery;
         
         
         protected override void OnCreate()
         {
             this.mapQuery = this.EntityManager.CreateMapEntityQuery(revealedTilesWriteAccess: true, true);
+            this.RequireForUpdate(this.mapQuery);
         }
 
         protected override JobHandle OnUpdate(JobHandle inputDeps)
@@ -26,17 +25,20 @@ namespace LazyGameDevZA.RogueDOTS.Systems
             var mapEntity = this.mapQuery.GetSingletonEntity();
             var map = this.EntityManager.GetMap(mapEntity);
             var players = this.GetComponentDataFromEntity<Player>();
-            var jobMarker = VisibilitySystem.jobMarker;
 
-            this.Entities
+            var mapTiles = map.Tiles;
+            var revealedTiles = map.RevealedTiles;
+            var mapVisibleTiles = map.VisibleTiles;
+            
+            this.Entities.WithName($"{nameof(VisibilitySystem)}_CalculateEntitiesVisibility")
                 .ForEach((ref DynamicBuffer<VisibleTilePosition> visibleTiles, ref ViewshedData viewshedData, in Entity entity, in Position position) =>
                 {
-                    jobMarker.Begin();
                     if(viewshedData.Dirty)
                     {
                         viewshedData.Dirty = false;
                         visibleTiles.Clear();
                         visibleTiles.Reinterpret<int2>().CopyFrom(FieldOfView(position.Value, viewshedData.Range, map));
+                        var _ = mapTiles;
 
                         for(int i = 0; i < visibleTiles.Length; i++)
                         {
@@ -53,10 +55,8 @@ namespace LazyGameDevZA.RogueDOTS.Systems
                         if(players.HasComponent(entity))
                         {
                             int2 pos;
-                            var revealedTiles = map.RevealedTiles;
-                            var mapVisibleTiles = map.VisibleTiles;
                             
-                            for(int i = 0; i < map.VisibleTiles.Length; i++)
+                            for(int i = 0; i < mapVisibleTiles.Length; i++)
                             {
                                 mapVisibleTiles[i] = false;
                             }
@@ -70,10 +70,12 @@ namespace LazyGameDevZA.RogueDOTS.Systems
                             }
                         }
                     }
-                    jobMarker.End();
                 })
+                .WithReadOnly(mapTiles)
+                .WithNativeDisableParallelForRestriction(revealedTiles)
+                .WithNativeDisableParallelForRestriction(mapVisibleTiles)
                 .Run();
-            
+
             return default;
         }
     }

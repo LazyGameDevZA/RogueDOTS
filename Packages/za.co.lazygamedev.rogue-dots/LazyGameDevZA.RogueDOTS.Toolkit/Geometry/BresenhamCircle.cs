@@ -2,8 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using Unity.Mathematics;
 using UnityEngine.Assertions;
+using static Unity.Mathematics.math;
+using int2 = Unity.Mathematics.int2;
 
 namespace LazyGameDevZA.RogueDOTS.Toolkit.Geometry
 {
@@ -67,16 +68,16 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Geometry
                     switch(this.quadrant)
                     {
                         case 1:
-                            point = new int2(this.center.x - this.x, this.center.y + this.y);
+                            point = int2(this.center.x - this.x, this.center.y + this.y);
                             break;
                         case 2:
-                            point = new int2(this.center.x - this.y, this.center.y - this.x);
+                            point = int2(this.center.x - this.y, this.center.y - this.x);
                             break;
                         case 3:
-                            point = new int2(this.center.x + this.x, this.center.y - this.y);
+                            point = int2(this.center.x + this.x, this.center.y - this.y);
                             break;
                         case 4:
-                            point = new int2(this.center.x + this.y, this.center.y + this.x);
+                            point = int2(this.center.x + this.y, this.center.y + this.x);
                             break;
                         default:
                             Assert.IsTrue(false, "quadrant value was out of range");

@@ -29,7 +29,7 @@ namespace LazyGameDevZA.RogueDOTS.Systems
 
             int2 move = this.GetSingleton<Move>();
             
-            var max = new int2(map.Width - 1, map.Height - 1);
+            var max = int2(map.Width - 1, map.Height - 1);
             var min = int2.zero;
 
             this.Entities.WithAll<Player>()

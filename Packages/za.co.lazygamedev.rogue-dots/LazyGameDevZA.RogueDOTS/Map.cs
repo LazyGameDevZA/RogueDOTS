@@ -1,10 +1,11 @@
 ﻿using System.Linq;
 using LazyGameDevZA.RogueDOTS.Components;
 using LazyGameDevZA.RogueDOTS.Toolkit;
+using LazyGameDevZA.RogueDOTS.Toolkit.Geometry;
 using Unity.Collections;
 using Unity.Entities;
-using Unity.Mathematics;
 using static Unity.Mathematics.math;
+using int2 = Unity.Mathematics.int2;
 
 namespace LazyGameDevZA.RogueDOTS
 {
@@ -18,11 +19,15 @@ namespace LazyGameDevZA.RogueDOTS
 
         private DynamicBuffer<RevealedTile> revealedTiles;
         private DynamicBuffer<VisibleTile> visibleTiles;
+        private DynamicBuffer<BlockedTile> blockedTiles;
+
+        private int Length => this.Width * this.Height;
 
         public NativeArray<Tile> Tiles => this.tiles.AsNativeArray();
         public NativeArray<Rect> Rooms => this.rooms.Reinterpret<Rect>().AsNativeArray();
         public NativeArray<RevealedTile> RevealedTiles => this.revealedTiles.AsNativeArray();
         public NativeArray<VisibleTile> VisibleTiles => this.visibleTiles.AsNativeArray();
+        public NativeArray<BlockedTile> BlockedTiles => this.blockedTiles.AsNativeArray();
 
         public Map(
             DynamicBuffer<Tile> tiles,
@@ -30,7 +35,8 @@ namespace LazyGameDevZA.RogueDOTS
             int width,
             int height,
             DynamicBuffer<RevealedTile> revealedTiles,
-            DynamicBuffer<VisibleTile> visibleTiles)
+            DynamicBuffer<VisibleTile> visibleTiles,
+            DynamicBuffer<BlockedTile> blockedTiles)
         {
             this.tiles = tiles;
             this.rooms = rooms;
@@ -38,6 +44,7 @@ namespace LazyGameDevZA.RogueDOTS
             this.Height = height;
             this.revealedTiles = revealedTiles;
             this.visibleTiles = visibleTiles;
+            this.blockedTiles = blockedTiles;
         }
     }
 
@@ -52,6 +59,14 @@ namespace LazyGameDevZA.RogueDOTS
         public int xy_idx(int2 position)
         {
             return xy_idx(position.x, position.y);
+        }
+
+        public int2 idx_xy(int idx)
+        {
+            var x = idx % this.Width;
+            var y = idx / this.Width;
+            
+            return int2(x, y);
         }
 
         public static Map NewMapRoomsAndCorridors(EntityManager entityManager)
@@ -166,6 +181,27 @@ namespace LazyGameDevZA.RogueDOTS
                 }
             }
         }
+
+        private bool IsExitValid(int2 position)
+        {
+            var (x, y) = position;
+            if(x < 1 || x > this.Width - 1 || y < 1 || y > this.Height)
+            {
+                return false;
+            }
+
+            var idx = this.xy_idx(position);
+
+            return !this.blockedTiles[idx];
+        }
+
+        public void PopulateBlocked()
+        {
+            for(int i = 0; i < this.Length; i++)
+            {
+                this.blockedTiles[i] = this.tiles[i] == TileType.Wall;
+            }
+        }
     }
 
     public partial struct Map: IBaseMap
@@ -173,6 +209,52 @@ namespace LazyGameDevZA.RogueDOTS
         public bool IsOpaque(int idx)
         {
             return this.tiles[idx].Type == TileType.Wall;
+        }
+
+        public NativeList<Exit> GetAvailableExits(int idx, NativeList<Exit> exits = default)
+        {
+            if(exits.IsCreated)
+            {
+                exits = new NativeList<Exit>(8, Allocator.Temp);
+            }
+            else
+            {
+                exits.Clear();
+            }
+
+            var position = this.idx_xy(idx);
+
+            // Cardinal directions
+            var west = position + int2(-1, 0);
+            var east = position + int2(+1, 0);
+            var south = position + int2(0, -1);
+            var north = position + int2(0, +1);
+            
+            if(this.IsExitValid(west)) { exits.Add((xy_idx(west), 1f)); }
+            if(this.IsExitValid(east)) { exits.Add((xy_idx(east), 1f)); }
+            if(this.IsExitValid(south)) { exits.Add((xy_idx(south), 1f)); }
+            if(this.IsExitValid(north)) { exits.Add((xy_idx(north), 1f)); }
+            
+            // Diagonals
+            var southWest = position + int2(-1, -1);
+            var southEast = position + int2(+1, -1);
+            var northWest = position + int2(-1, +1);
+            var northEast = position + int2(+1, +1);
+            
+            if(this.IsExitValid(southWest)) { exits.Add((xy_idx(southWest), 1.45f)); }
+            if(this.IsExitValid(southEast)) { exits.Add((xy_idx(southEast), 1.45f)); }
+            if(this.IsExitValid(northWest)) { exits.Add((xy_idx(northWest), 1.45f)); }
+            if(this.IsExitValid(northEast)) { exits.Add((xy_idx(northEast), 1.45f)); }
+
+            return exits;
+        }
+
+        public float GetPathingDistance(int idx1, int idx2)
+        {
+            var p1 = idx_xy(idx1);
+            var p2 = idx_xy(idx2);
+
+            return DistanceAlg.Pythagoras.Distance2D(p1, p2);
         }
     }
 
@@ -186,12 +268,21 @@ namespace LazyGameDevZA.RogueDOTS
             return pt.y * bounds.x + pt.x;
         }
 
-        public int2 Dimensions => new int2(this.Width, this.Height);
+        public int2 Dimensions => int2(this.Width, this.Height);
 
         public bool Inbounds(int2 pos)
         {
             var bounds = this.Dimensions;
             return pos.x >= 0 && pos.x < bounds.x && pos.y >= 0 && pos.y < bounds.y;
+        }
+    }
+
+    public static class Int2Extensions
+    {
+        public static void Deconstruct(this int2 value, out int x, out int y)
+        {
+            x = value.x;
+            y = value.y;
         }
     }
 }
