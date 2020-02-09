@@ -73,4 +73,14 @@ namespace LazyGameDevZA.RogueDOTS.Components
         
         public static implicit operator bool(VisibleTile visibleTile) => visibleTile.Value;
     }
+
+    [InternalBufferCapacity(0)]
+    public struct BlockedTile : IBufferElementData
+    {
+        public bool Value;
+        
+        public static implicit operator BlockedTile(bool value) => new BlockedTile { Value = value };
+        
+        public static implicit operator bool(BlockedTile visibleTile) => visibleTile.Value;
+    }
 }

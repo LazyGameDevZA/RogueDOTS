@@ -2,6 +2,7 @@
 using LazyGameDevZA.RogueDOTS.Toolkit.Geometry;
 using Unity.Collections;
 using Unity.Mathematics;
+using static Unity.Mathematics.math;
 
 namespace LazyGameDevZA.RogueDOTS.Toolkit
 {
@@ -30,10 +31,10 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit
         private static void PostProcessToRemoveBresenhamArtifacts<T>(int2 start, int range, in T fovCheck,
             NativeHashSet<int2> visiblePoints) where T : IAlgorithm2D, IBaseMap
         {
-            RemoveBresenhamArtifactsInDirection(start, new int2(-1, -1), range, fovCheck, visiblePoints);
-            RemoveBresenhamArtifactsInDirection(start, new int2(+1, -1), range, fovCheck, visiblePoints);
-            RemoveBresenhamArtifactsInDirection(start, new int2(-1, +1), range, fovCheck, visiblePoints);
-            RemoveBresenhamArtifactsInDirection(start, new int2(+1, +1), range, fovCheck, visiblePoints);
+            RemoveBresenhamArtifactsInDirection(start, int2(-1, -1), range, fovCheck, visiblePoints);
+            RemoveBresenhamArtifactsInDirection(start, int2(+1, -1), range, fovCheck, visiblePoints);
+            RemoveBresenhamArtifactsInDirection(start, int2(-1, +1), range, fovCheck, visiblePoints);
+            RemoveBresenhamArtifactsInDirection(start, int2(+1, +1), range, fovCheck, visiblePoints);
         }
 
         private static void RemoveBresenhamArtifactsInDirection<T>(
@@ -50,10 +51,10 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit
                 {
                     var y = start.y + j * direction.y;
                     
-                    var current = new int2(x, y);
+                    var current = int2(x, y);
                     var isWall = fovCheck.Inbounds(current) && fovCheck.IsOpaque(fovCheck.point2DToIndex(current));
-                    var horizontalInFront = new int2(x - direction.x, y);
-                    var verticalInFront = new int2(x, y - direction.y);
+                    var horizontalInFront = int2(x - direction.x, y);
+                    var verticalInFront = int2(x, y - direction.y);
                     var horizontalInFrontIsLitGround = fovCheck.Inbounds(horizontalInFront) && 
                                           !fovCheck.IsOpaque(fovCheck.point2DToIndex(horizontalInFront)) &&
                                           visiblePoints.Contains(horizontalInFront);

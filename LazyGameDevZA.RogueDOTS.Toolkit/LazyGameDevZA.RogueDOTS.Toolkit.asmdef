@@ -1,7 +1,8 @@
 {
     "name": "LazyGameDevZA.RogueDOTS.Toolkit",
     "references": [
-        "Unity.Mathematics"
+        "Unity.Mathematics",
+        "Unity.Collections"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

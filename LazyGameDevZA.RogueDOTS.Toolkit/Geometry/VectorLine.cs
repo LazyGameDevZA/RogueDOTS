@@ -69,7 +69,7 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Geometry
                     if(!this.reallyFinished)
                     {
                         this.reallyFinished = true;
-                        this.current = new int2(this.currentPos);
+                        this.current = int2(this.currentPos);
                         return true;
                     }
                     else
@@ -80,9 +80,9 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Geometry
                 }
                 else
                 {
-                    var currentPoint = new int2(this.currentPos);
+                    var currentPoint = int2(this.currentPos);
                     this.currentPos += this.slope;
-                    var newPoint = new int2(this.currentPos);
+                    var newPoint = int2(this.currentPos);
 
                     if(newPoint.x == this.end.x && newPoint.y == this.end.y)
                     {
