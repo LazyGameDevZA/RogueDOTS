@@ -95,15 +95,18 @@ namespace LazyGameDevZA.RogueDOTS.Components
         public int Length => this.Contents.Length;
         
         public Entity this[int idx] => this.Contents[idx];
-
-        public void Add(Entity entity)
+    }
+    
+    public static class TileContentImpl
+    {
+        public static void Add(ref this TileContent tileContent, Entity entity)
         {
-            this.Contents.Add(entity);
+            tileContent.Contents.Add(entity);
         }
         
-        public void Clear()
+        public static void Clear(ref this TileContent tileContent)
         {
-            this.Contents.Clear();
+            tileContent.Contents.Clear();
         }
     }
 }

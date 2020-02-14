@@ -10,6 +10,7 @@ namespace LazyGameDevZA.RogueDOTS.Systems
 {
     [AlwaysSynchronizeSystem]
     [UpdateInGroup(typeof(GameSystemsGroup))]
+    [UpdateBefore(typeof(VisibilitySystem))]
     public class PlayerMoveSystem : JobComponentSystem
     {
         private EntityQuery mapQuery;
@@ -61,6 +62,7 @@ namespace LazyGameDevZA.RogueDOTS.Systems
                         if(combatStats.HasComponent(potentialTarget))
                         {
                             ecb.AddComponent(entity, new WantsToMelee { Target = potentialTarget });
+                            return;
                         }
                     }
                     

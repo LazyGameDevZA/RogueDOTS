@@ -50,18 +50,18 @@ namespace LazyGameDevZA.RogueDOTS.Systems
                     }
                     else
                     {
-                    for(int i = 0; i < visibleTiles.Length; i++)
-                    {
-                        if(all(playerPosition.Value == visibleTiles[i].Value))
+                        for(int i = 0; i < visibleTiles.Length; i++)
                         {
-                            var path = AStarSearch(map.xy_idx(position), map.xy_idx(playerPosition), map);
-                            if(path.Success && path.Steps.Length > 1)
+                            if(all(playerPosition.Value == visibleTiles[i].Value))
                             {
-                                position = map.idx_xy(path.Steps[1]);
+                                var path = AStarSearch(map.xy_idx(position), map.xy_idx(playerPosition), map);
+                                if(path.Success && path.Steps.Length > 1)
+                                {
+                                    position = map.idx_xy(path.Steps[1]);
+                                }
+                                break;
                             }
-                            break;
                         }
-                    }
                     }
                 })
                 .WithoutBurst()
