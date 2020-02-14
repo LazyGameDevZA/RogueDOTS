@@ -40,7 +40,6 @@ namespace LazyGameDevZA.RogueDOTS.Systems
                             if(path.Success && path.Steps.Length > 1)
                             {
                                 position = map.idx_xy(path.Steps[1]);
-                                viewshedData.Dirty = true;
                             }
                             break;
                         }

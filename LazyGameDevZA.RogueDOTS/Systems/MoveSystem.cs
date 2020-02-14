@@ -40,8 +40,7 @@ namespace LazyGameDevZA.RogueDOTS.Systems
                     if(map.Tiles[destinationIdx] != TileType.Wall)
                     {
                         position.Value = clamp(destination, min, max);
-                        viewshedData.Dirty = true;
-                        
+
                         this.SetSingleton<PlayerPosition>(position.Value);
                     }
                 })

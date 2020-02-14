@@ -33,44 +33,41 @@ namespace LazyGameDevZA.RogueDOTS.Systems
             this.Entities.WithName($"{nameof(VisibilitySystem)}_CalculateEntitiesVisibility")
                 .ForEach((ref DynamicBuffer<VisibleTilePosition> visibleTiles, ref ViewshedData viewshedData, in Entity entity, in Position position) =>
                 {
-                    if(viewshedData.Dirty)
+                    visibleTiles.Clear();
+                    visibleTiles.Reinterpret<int2>().CopyFrom(FieldOfView(position.Value, viewshedData.Range, map));
+                    var _ = mapTiles;
+
+                    for(int i = 0; i < visibleTiles.Length; i++)
                     {
-                        viewshedData.Dirty = false;
-                        visibleTiles.Clear();
-                        visibleTiles.Reinterpret<int2>().CopyFrom(FieldOfView(position.Value, viewshedData.Range, map));
-                        var _ = mapTiles;
-
-                        for(int i = 0; i < visibleTiles.Length; i++)
+                        var p = visibleTiles[i].Value;
+                        if(p.x >= 0 && p.x <= map.Width - 1 && p.y >= 0 && p.y <= map.Width - 1)
                         {
-                            var p = visibleTiles[i].Value;
-                            if(p.x >= 0 && p.x <= map.Width - 1 && p.y >= 0 && p.y <= map.Width - 1)
-                            {
-                                continue;
-                            }
-
-                            visibleTiles.RemoveAt(i);
-                            i--;
+                            continue;
                         }
 
-                        if(players.HasComponent(entity))
+                        visibleTiles.RemoveAt(i);
+                        i--;
+                    }
+
+                    if(players.HasComponent(entity))
+                    {
+                        int2 pos;
+                        
+                        for(int i = 0; i < mapVisibleTiles.Length; i++)
                         {
-                            int2 pos;
-                            
-                            for(int i = 0; i < mapVisibleTiles.Length; i++)
-                            {
-                                mapVisibleTiles[i] = false;
-                            }
-                            
-                            for(int i = 0; i < visibleTiles.Length; i++)
-                            {
-                                pos = visibleTiles[i].Value;
-                                var idx = map.xy_idx(pos.x, pos.y);
-                                revealedTiles[idx] = true;
-                                mapVisibleTiles[idx] = true;
-                            }
+                            mapVisibleTiles[i] = false;
+                        }
+                        
+                        for(int i = 0; i < visibleTiles.Length; i++)
+                        {
+                            pos = visibleTiles[i].Value;
+                            var idx = map.xy_idx(pos.x, pos.y);
+                            revealedTiles[idx] = true;
+                            mapVisibleTiles[idx] = true;
                         }
                     }
                 })
+                .WithChangeFilter<Position>()
                 .WithReadOnly(mapTiles)
                 .WithNativeDisableParallelForRestriction(revealedTiles)
                 .WithNativeDisableParallelForRestriction(mapVisibleTiles)

@@ -11,6 +11,5 @@ namespace LazyGameDevZA.RogueDOTS.Components
     public struct ViewshedData: IComponentData
     {
         public int Range;
-        public bool Dirty;
     }
 }
