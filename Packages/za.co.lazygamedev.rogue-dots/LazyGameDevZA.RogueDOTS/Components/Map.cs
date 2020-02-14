@@ -1,4 +1,7 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System;
+using System.Runtime.CompilerServices;
+using Unity.Collections;
+using Unity.Collections.LowLevel.Unsafe;
 using Unity.Entities;
 
 namespace LazyGameDevZA.RogueDOTS.Components
@@ -82,5 +85,25 @@ namespace LazyGameDevZA.RogueDOTS.Components
         public static implicit operator BlockedTile(bool value) => new BlockedTile { Value = value };
         
         public static implicit operator bool(BlockedTile visibleTile) => visibleTile.Value;
+    }
+
+    [InternalBufferCapacity(0)]
+    public struct TileContent : IBufferElementData
+    {
+        public FixedList128<Entity> Contents;
+
+        public int Length => this.Contents.Length;
+        
+        public Entity this[int idx] => this.Contents[idx];
+
+        public void Add(Entity entity)
+        {
+            this.Contents.Add(entity);
+        }
+        
+        public void Clear()
+        {
+            this.Contents.Clear();
+        }
     }
 }

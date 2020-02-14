@@ -208,7 +208,7 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Collections {
         public static UnsafeBinaryHeap* Create(int sizeOf, int alignOf, int initialCapacity, Allocator allocator)
         {
             var binaryHeapDataSize = SizeOf<UnsafeBinaryHeap>();
-            UnsafeBinaryHeap* binaryHeapData = (UnsafeBinaryHeap*)Malloc(binaryHeapDataSize, UnsafeUtility.AlignOf<UnsafeBinaryHeap>(), allocator);
+            UnsafeBinaryHeap* binaryHeapData = (UnsafeBinaryHeap*)Malloc(binaryHeapDataSize, AlignOf<UnsafeBinaryHeap>(), allocator);
             MemClear(binaryHeapData, binaryHeapDataSize);
 
             binaryHeapData->Allocator = allocator;

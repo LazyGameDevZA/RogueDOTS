@@ -20,6 +20,7 @@ namespace LazyGameDevZA.RogueDOTS
         private DynamicBuffer<RevealedTile> revealedTiles;
         private DynamicBuffer<VisibleTile> visibleTiles;
         private DynamicBuffer<BlockedTile> blockedTiles;
+        private DynamicBuffer<TileContent> tileContents;
 
         private int Length => this.Width * this.Height;
 
@@ -29,6 +30,8 @@ namespace LazyGameDevZA.RogueDOTS
         public NativeArray<VisibleTile> VisibleTiles => this.visibleTiles.AsNativeArray();
         public NativeArray<BlockedTile> BlockedTiles => this.blockedTiles.AsNativeArray();
 
+        public NativeArray<TileContent> TileContents => this.tileContents.AsNativeArray();
+
         public Map(
             DynamicBuffer<Tile> tiles,
             DynamicBuffer<Room> rooms,
@@ -36,7 +39,8 @@ namespace LazyGameDevZA.RogueDOTS
             int height,
             DynamicBuffer<RevealedTile> revealedTiles,
             DynamicBuffer<VisibleTile> visibleTiles,
-            DynamicBuffer<BlockedTile> blockedTiles)
+            DynamicBuffer<BlockedTile> blockedTiles,
+            DynamicBuffer<TileContent> tileContents)
         {
             this.tiles = tiles;
             this.rooms = rooms;
@@ -45,6 +49,7 @@ namespace LazyGameDevZA.RogueDOTS
             this.revealedTiles = revealedTiles;
             this.visibleTiles = visibleTiles;
             this.blockedTiles = blockedTiles;
+            this.tileContents = tileContents;
         }
     }
 
@@ -200,6 +205,14 @@ namespace LazyGameDevZA.RogueDOTS
             for(int i = 0; i < this.Length; i++)
             {
                 this.blockedTiles[i] = this.tiles[i] == TileType.Wall;
+            }
+        }
+
+        public void ClearContentIndex()
+        {
+            for(int i = 0; i < this.Length; i++)
+            {
+                this.tileContents[i].Clear();
             }
         }
     }

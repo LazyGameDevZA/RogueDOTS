@@ -59,7 +59,8 @@ namespace LazyGameDevZA.RogueDOTS
                         typeof(ViewshedData),
                         typeof(Monster),
                         typeof(Name),
-                        typeof(BlocksTile));
+                        typeof(BlocksTile),
+                        typeof(CombatStats));
                 var formattedName = $"{name} #{i}";
                 this.EntityManager.SetName(monster, formattedName);
                 this.EntityManager.SetComponentData(monster, new Position { Value = roomCenters[i] });
@@ -68,9 +69,9 @@ namespace LazyGameDevZA.RogueDOTS
                     new Renderable { Glyph = glyph, Foreground = Color.red, Background = Color.black });
                 this.EntityManager.SetComponentData(monster, new ViewshedData { Range = 8 });
                 this.EntityManager.SetComponentData(monster, new Name { Value = formattedName });
+                this.EntityManager.SetComponentData(monster, new CombatStats { MaxHP = 16, HP = 16, Defense = 2, Power = 5 });
             }
 
-            this.EntityManager.CreateEntity(typeof(Move));
 
             World.DefaultGameObjectInjectionWorld = world;
             var systems = DefaultWorldInitialization.GetAllSystems(WorldSystemFilterFlags.Default);
@@ -88,13 +89,18 @@ namespace LazyGameDevZA.RogueDOTS
                 typeof(Position),
                 typeof(Renderable),
                 typeof(VisibleTilePosition),
-                typeof(ViewshedData));
-            this.EntityManager.SetName(entity, "Player");
+                typeof(ViewshedData),
+                typeof(Name),
+                typeof(CombatStats));
+            var name = "Player";
+            this.EntityManager.SetName(entity, name);
             this.EntityManager.SetComponentData(entity, new Position { Value = position });
             this.EntityManager.SetComponentData(
                 entity,
                 new Renderable { Glyph = (byte)'@', Foreground = Color.yellow, Background = Color.black });
             this.EntityManager.SetComponentData(entity, new ViewshedData { Range = 8 });
+            this.EntityManager.SetComponentData(entity, new Name { Value = name });
+            this.EntityManager.SetComponentData(entity, new CombatStats { MaxHP = 30, HP = 30, Defense = 2, Power = 5 });
         }
     }
 }

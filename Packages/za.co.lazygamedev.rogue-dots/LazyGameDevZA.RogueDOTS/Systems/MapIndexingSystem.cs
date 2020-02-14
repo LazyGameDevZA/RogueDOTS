@@ -13,7 +13,7 @@ namespace LazyGameDevZA.RogueDOTS.Systems
 
         protected override void OnCreate()
         {
-            this.mapQuery = this.EntityManager.CreateMapEntityQuery(blockedTilesWriteAccess: true);
+            this.mapQuery = this.EntityManager.CreateMapEntityQuery(blockedTilesWriteAccess: true, visibleTilesWriteAccess: true);
             this.RequireForUpdate(this.mapQuery);
         }
 
@@ -22,19 +22,29 @@ namespace LazyGameDevZA.RogueDOTS.Systems
             var mapEntity = this.mapQuery.GetSingletonEntity();
             var map = this.EntityManager.GetMap(mapEntity);
             var mapBlockedTiles = map.BlockedTiles;
+            var blockers = this.GetComponentDataFromEntity<BlocksTile>();
 
             this.Job.WithName($"{nameof(MapIndexingSystem)}_PopulateBlockedFromMapJob")
-                .WithCode(() => { map.PopulateBlocked(); })
+                .WithCode(() =>
+                {
+                    map.PopulateBlocked();
+                    map.ClearContentIndex();
+                })
                 .Run();
 
             this.Entities.WithName($"{nameof(MapIndexingSystem)}_PopulateBlockedFromEntitiesJob")
-                .WithAll<BlocksTile>()
-                .ForEach((in Position position) =>
+                .ForEach((Entity entity, in Position position) =>
                 {
                     var idx = map.xy_idx(position);
                     mapBlockedTiles[idx] = true;
+
+                    if(blockers.HasComponent(entity))
+                    {
+                        mapBlockedTiles[idx] = true;
+                    }
+
+                    map.TileContents[idx].Add(entity);
                 })
-                .WithNativeDisableParallelForRestriction(mapBlockedTiles)
                 .Run();
             
             return default;
