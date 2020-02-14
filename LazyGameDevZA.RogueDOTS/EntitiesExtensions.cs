@@ -6,9 +6,6 @@ namespace LazyGameDevZA.RogueDOTS
 {
     public static class EntitiesExtensions
     {
-
-        public delegate void ForEachMap(in Map map);
-
         public static Map CreateMap(this EntityManager entityManager, TileType fill, int width, int height, int maxRooms)
         {
             var entity = entityManager.CreateEntity(
@@ -17,7 +14,8 @@ namespace LazyGameDevZA.RogueDOTS
                 typeof(MapDimensions),
                 typeof(RevealedTile),
                 typeof(VisibleTile),
-                typeof(BlockedTile));
+                typeof(BlockedTile),
+                typeof(TileContent));
             
             entityManager.SetName(entity, "Map");
             var tiles = entityManager.GetBuffer<Tile>(entity);
@@ -38,15 +36,19 @@ namespace LazyGameDevZA.RogueDOTS
             var blockedTiles = entityManager.GetBuffer<BlockedTile>(entity);
             blockedTiles.Capacity = tileCount;
 
+            var tileContents = entityManager.GetBuffer<TileContent>(entity);
+            tileContents.Capacity = tileCount;  
+
             foreach(var _ in Enumerable.Range(0, tileCount))
             {
                 tiles.Add(fill);
                 revealedTiles.Add(default);
                 visibleTiles.Add(default);
                 blockedTiles.Add(default);
-            }
+                tileContents.Add(default);
+            } 
             
-            return new Map(tiles, rooms, width, height, revealedTiles, visibleTiles, blockedTiles);
+            return new Map(tiles, rooms, width, height, revealedTiles, visibleTiles, blockedTiles, tileContents);
         }
 
         public static Map GetMap(this EntityManager entityManager, Entity entity)
@@ -57,15 +59,17 @@ namespace LazyGameDevZA.RogueDOTS
             var revealedTiles = entityManager.GetBuffer<RevealedTile>(entity);
             var visibleTiles = entityManager.GetBuffer<VisibleTile>(entity);
             var blockedTiles = entityManager.GetBuffer<BlockedTile>(entity);
+            var tileContents = entityManager.GetBuffer<TileContent>(entity);
 
-            return new Map(tiles, rooms, dimensions.Width, dimensions.Height, revealedTiles, visibleTiles, blockedTiles);
+            return new Map(tiles, rooms, dimensions.Width, dimensions.Height, revealedTiles, visibleTiles, blockedTiles, tileContents);
         }
 
         public static EntityQuery CreateMapEntityQuery(
             this EntityManager entityManager,
             bool revealedTilesWriteAccess = false,
             bool visibleTilesWriteAccess = false,
-            bool blockedTilesWriteAccess = false)
+            bool blockedTilesWriteAccess = false,
+            bool tileContentWriteAccess = false)
         {
             return entityManager.CreateEntityQuery(
                 ComponentType.ReadOnly<Tile>(),
@@ -73,7 +77,8 @@ namespace LazyGameDevZA.RogueDOTS
                 ComponentType.ReadOnly<MapDimensions>(),
                 revealedTilesWriteAccess ? ComponentType.ReadWrite<RevealedTile>() : ComponentType.ReadOnly<RevealedTile>(),
                 visibleTilesWriteAccess ? ComponentType.ReadWrite<VisibleTile>() : ComponentType.ReadOnly<VisibleTile>(),
-                blockedTilesWriteAccess ? ComponentType.ReadWrite<BlockedTile>() : ComponentType.ReadOnly<BlockedTile>());
+                blockedTilesWriteAccess ? ComponentType.ReadWrite<BlockedTile>() : ComponentType.ReadOnly<BlockedTile>(),
+                tileContentWriteAccess ? ComponentType.ReadWrite<TileContent>() : ComponentType.ReadOnly<TileContent>());
         }
     }
 }

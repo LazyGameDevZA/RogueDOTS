@@ -46,7 +46,7 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Geometry
 
             object IEnumerator.Current => this.Current;
 
-            public int2 Current => this.current.Value;
+            public int2 Current =>  this.current.Value;
 
             public Enumerator(ref VectorLine vectorLine)
             {

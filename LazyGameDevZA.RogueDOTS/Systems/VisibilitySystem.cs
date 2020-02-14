@@ -71,6 +71,7 @@ namespace LazyGameDevZA.RogueDOTS.Systems
                 .WithReadOnly(mapTiles)
                 .WithNativeDisableParallelForRestriction(revealedTiles)
                 .WithNativeDisableParallelForRestriction(mapVisibleTiles)
+                .WithChangeFilter<Position>()
                 .Run();
 
             return default;
