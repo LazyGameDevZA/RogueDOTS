@@ -66,7 +66,7 @@ namespace LazyGameDevZA.RogueDOTS
                 this.EntityManager.SetComponentData(
                     monster,
                     new Renderable { Glyph = glyph, Foreground = Color.red, Background = Color.black });
-                this.EntityManager.SetComponentData(monster, new ViewshedData { Range = 8, Dirty = true });
+                this.EntityManager.SetComponentData(monster, new ViewshedData { Range = 8 });
                 this.EntityManager.SetComponentData(monster, new Name { Value = formattedName });
             }
 
@@ -94,7 +94,7 @@ namespace LazyGameDevZA.RogueDOTS
             this.EntityManager.SetComponentData(
                 entity,
                 new Renderable { Glyph = (byte)'@', Foreground = Color.yellow, Background = Color.black });
-            this.EntityManager.SetComponentData(entity, new ViewshedData { Range = 8, Dirty = true });
+            this.EntityManager.SetComponentData(entity, new ViewshedData { Range = 8 });
         }
     }
 }
