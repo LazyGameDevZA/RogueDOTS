@@ -29,7 +29,6 @@ namespace LazyGameDevZA.RogueDOTS
         public NativeArray<RevealedTile> RevealedTiles => this.revealedTiles.AsNativeArray();
         public NativeArray<VisibleTile> VisibleTiles => this.visibleTiles.AsNativeArray();
         public NativeArray<BlockedTile> BlockedTiles => this.blockedTiles.AsNativeArray();
-
         public NativeArray<TileContent> TileContents => this.tileContents.AsNativeArray();
 
         public Map(
@@ -212,7 +211,9 @@ namespace LazyGameDevZA.RogueDOTS
         {
             for(int i = 0; i < this.Length; i++)
             {
-                this.tileContents[i].Clear();
+                var tileContent = this.tileContents[i];
+                tileContent.Clear();
+                this.tileContents[i] = tileContent;
             }
         }
     }

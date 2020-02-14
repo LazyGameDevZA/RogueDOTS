@@ -13,7 +13,10 @@ namespace LazyGameDevZA.RogueDOTS.Systems
 
         protected override void OnCreate()
         {
-            this.mapQuery = this.EntityManager.CreateMapEntityQuery(blockedTilesWriteAccess: true, visibleTilesWriteAccess: true);
+            this.mapQuery = this.EntityManager.CreateMapEntityQuery(
+                blockedTilesWriteAccess: true,
+                visibleTilesWriteAccess: true,
+                tileContentWriteAccess: true);
             this.RequireForUpdate(this.mapQuery);
         }
 
@@ -22,6 +25,7 @@ namespace LazyGameDevZA.RogueDOTS.Systems
             var mapEntity = this.mapQuery.GetSingletonEntity();
             var map = this.EntityManager.GetMap(mapEntity);
             var mapBlockedTiles = map.BlockedTiles;
+            var mapTileContents = map.TileContents;
             var blockers = this.GetComponentDataFromEntity<BlocksTile>();
 
             this.Job.WithName($"{nameof(MapIndexingSystem)}_PopulateBlockedFromMapJob")
@@ -36,15 +40,17 @@ namespace LazyGameDevZA.RogueDOTS.Systems
                 .ForEach((Entity entity, in Position position) =>
                 {
                     var idx = map.xy_idx(position);
-                    mapBlockedTiles[idx] = true;
 
                     if(blockers.HasComponent(entity))
                     {
                         mapBlockedTiles[idx] = true;
                     }
 
-                    map.TileContents[idx].Add(entity);
+                    var contents = mapTileContents[idx];
+                    contents.Add(entity);
+                    mapTileContents[idx] = contents;
                 })
+                .WithoutBurst()
                 .Run();
             
             return default;
