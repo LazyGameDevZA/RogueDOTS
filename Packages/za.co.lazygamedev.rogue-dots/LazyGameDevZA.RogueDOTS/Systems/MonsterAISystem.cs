@@ -29,7 +29,7 @@ namespace LazyGameDevZA.RogueDOTS.Systems
             var map = this.EntityManager.GetMap(mapEntity);
             
             this.Entities.WithAll<Monster>()
-                .ForEach((Entity entity, ref Position position, in DynamicBuffer<VisibleTilePosition> visibleTiles, in ViewshedData viewshedData, in Name name) =>
+                .ForEach((Entity entity, ref Position position, ref ViewshedData viewshedData, in DynamicBuffer<VisibleTilePosition> visibleTiles, in Name name) =>
                 {
                     for(int i = 0; i < visibleTiles.Length; i++)
                     {
@@ -40,6 +40,7 @@ namespace LazyGameDevZA.RogueDOTS.Systems
                             if(path.Success && path.Steps.Length > 1)
                             {
                                 position = map.idx_xy(path.Steps[1]);
+                                viewshedData.Dirty = true;
                             }
                             break;
                         }
