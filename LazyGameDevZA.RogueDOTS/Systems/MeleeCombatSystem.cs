@@ -10,9 +10,9 @@ namespace LazyGameDevZA.RogueDOTS.Systems
     [AlwaysSynchronizeSystem]
     [UpdateInGroup(typeof(GameSystemsGroup))]
     [UpdateAfter(typeof(MapIndexingSystem))]
-    public class MeleeCombatSystem : JobComponentSystem
+    public class MeleeCombatSystem : SystemBase
     {
-        protected override JobHandle OnUpdate(JobHandle inputDeps)
+        protected override void OnUpdate()
         {
             var combatStats = this.GetComponentDataFromEntity<CombatStats>();
             var names = this.GetComponentDataFromEntity<Name>();
@@ -53,8 +53,6 @@ namespace LazyGameDevZA.RogueDOTS.Systems
 
             ecb.Playback(this.EntityManager);
             ecb.Dispose();
-
-            return default;
         }
     }
 }

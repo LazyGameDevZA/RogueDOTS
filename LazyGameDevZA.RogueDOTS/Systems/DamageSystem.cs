@@ -1,7 +1,6 @@
 ﻿using LazyGameDevZA.RogueDOTS.Components;
 using Unity.Collections;
 using Unity.Entities;
-using Unity.Jobs;
 using UnityEngine;
 
 namespace LazyGameDevZA.RogueDOTS.Systems
@@ -9,12 +8,20 @@ namespace LazyGameDevZA.RogueDOTS.Systems
     [AlwaysSynchronizeSystem]
     [UpdateInGroup(typeof(GameSystemsGroup))]
     [UpdateAfter(typeof(MeleeCombatSystem))]
-    public class DamageSystem : JobComponentSystem
+    public class DamageSystem : SystemBase
     {
-        protected override JobHandle OnUpdate(JobHandle inputDeps)
+        private EndSimulationEntityCommandBufferSystem endSimulationEntityCommandBufferSystem;
+
+        protected override void OnCreate()
+        {
+            base.OnCreate();
+            this.endSimulationEntityCommandBufferSystem = this.World.GetOrCreateSystem<EndSimulationEntityCommandBufferSystem>();
+        }
+
+        protected override void OnUpdate()
         {
             var players = this.GetComponentDataFromEntity<Player>();
-            var ecb = new EntityCommandBuffer(Allocator.TempJob);
+            var ecb = this.endSimulationEntityCommandBufferSystem.CreateCommandBuffer();
 
             FixedString32 message = "You are dead";
 
@@ -40,11 +47,6 @@ namespace LazyGameDevZA.RogueDOTS.Systems
                 })
                 .WithoutBurst()
                 .Run();
-
-            ecb.Playback(this.EntityManager);
-            ecb.Dispose();
-
-            return default;
         }
     }
 }

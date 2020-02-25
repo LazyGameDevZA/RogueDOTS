@@ -15,7 +15,7 @@ namespace LazyGameDevZA.RogueDOTS.TerminalRenderer
 {
     [UpdateInGroup(typeof(PresentationSystemGroup))]
     [AlwaysSynchronizeSystem]
-    public class RenderWorldSystem : JobComponentSystem
+    public class RenderWorldSystem : SystemBase
     {
         private static ProfilerMarker renderMapMarker = new ProfilerMarker($"{nameof(RenderWorldSystem)}_RenderMap");
         private static ProfilerMarker renderEntitiesMarker = new ProfilerMarker($"{nameof(RenderWorldSystem)}_RenderEntities");
@@ -68,7 +68,7 @@ namespace LazyGameDevZA.RogueDOTS.TerminalRenderer
             this.RequireForUpdate(this.mapQuery);
         }
 
-        protected override JobHandle OnUpdate(JobHandle inputDependencies)
+        protected override void OnUpdate()
         {
             var mapEntity = this.mapQuery.GetSingletonEntity();
             var map = this.EntityManager.GetMap(mapEntity);
@@ -149,8 +149,6 @@ namespace LazyGameDevZA.RogueDOTS.TerminalRenderer
                 .WithoutBurst()
                 .Run();
             renderEntitiesMarker.End();
-
-            return default;
         }
 
         protected override void OnDestroy()

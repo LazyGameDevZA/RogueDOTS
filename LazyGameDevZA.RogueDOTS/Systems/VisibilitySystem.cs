@@ -9,7 +9,7 @@ namespace LazyGameDevZA.RogueDOTS.Systems
 {
     [AlwaysSynchronizeSystem]
     [UpdateInGroup(typeof(GameSystemsGroup))]
-    public class VisibilitySystem: JobComponentSystem
+    public class VisibilitySystem: SystemBase
     {
         private EntityQuery mapQuery;
         
@@ -20,7 +20,7 @@ namespace LazyGameDevZA.RogueDOTS.Systems
             this.RequireForUpdate(this.mapQuery);
         }
 
-        protected override JobHandle OnUpdate(JobHandle inputDeps)
+        protected override void OnUpdate()
         {
             var mapEntity = this.mapQuery.GetSingletonEntity();
             var map = this.EntityManager.GetMap(mapEntity);
@@ -73,8 +73,6 @@ namespace LazyGameDevZA.RogueDOTS.Systems
                 .WithNativeDisableParallelForRestriction(mapVisibleTiles)
                 .WithChangeFilter<Position>()
                 .Run();
-
-            return default;
         }
     }
 }

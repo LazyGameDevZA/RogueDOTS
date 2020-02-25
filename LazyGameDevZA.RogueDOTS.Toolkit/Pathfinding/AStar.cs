@@ -34,6 +34,7 @@ namespace LazyGameDevZA.RogueDOTS.Toolkit.Pathfinding
         {
             public int CompareTo(Node other)
             {
+                // This is inverted!!!
                 return other.F.CompareTo(this.F);
             }
         }
