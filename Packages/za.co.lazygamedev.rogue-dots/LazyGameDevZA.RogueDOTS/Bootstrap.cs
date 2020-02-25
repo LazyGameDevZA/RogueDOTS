@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using LazyGameDevZA.RogueDOTS.Components;
+﻿using LazyGameDevZA.RogueDOTS.Components;
 using LazyGameDevZA.RogueDOTS.Toolkit;
 using Unity.Collections;
 using Unity.Entities;

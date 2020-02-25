@@ -11,7 +11,7 @@ namespace LazyGameDevZA.RogueDOTS.Systems
     [AlwaysSynchronizeSystem]
     [UpdateInGroup(typeof(GameSystemsGroup))]
     [UpdateBefore(typeof(VisibilitySystem))]
-    public class PlayerMoveSystem : JobComponentSystem
+    public class PlayerMoveSystem : SystemBase
     {
         private EntityQuery mapQuery;
 
@@ -27,13 +27,13 @@ namespace LazyGameDevZA.RogueDOTS.Systems
             this.RequireSingletonForUpdate<RunState>();
         }
 
-        protected override JobHandle OnUpdate(JobHandle inputDeps)
+        protected override void OnUpdate()
         {
             var runState = this.GetSingleton<RunState>();
 
             if(runState != RunState.State.PlayerTurn)
             {
-                return default;
+                return;
             }
             
             var mapEntity = this.mapQuery.GetSingletonEntity();
@@ -78,8 +78,6 @@ namespace LazyGameDevZA.RogueDOTS.Systems
             
             ecb.Playback(this.EntityManager);
             ecb.Dispose();
-  
-            return default;
         }
     }
 }

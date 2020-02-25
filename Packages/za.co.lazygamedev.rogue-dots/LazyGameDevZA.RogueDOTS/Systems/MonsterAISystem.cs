@@ -1,5 +1,4 @@
 ﻿using LazyGameDevZA.RogueDOTS.Components;
-using LazyGameDevZA.RogueDOTS.Toolkit.Collections;
 using LazyGameDevZA.RogueDOTS.Toolkit.Geometry;
 using Unity.Collections;
 using Unity.Entities;
@@ -12,7 +11,7 @@ namespace LazyGameDevZA.RogueDOTS.Systems
     [AlwaysSynchronizeSystem]
     [UpdateInGroup(typeof(GameSystemsGroup))]
     [UpdateAfter(typeof(VisibilitySystem))]
-    public class MonsterAISystem: JobComponentSystem
+    public class MonsterAISystem: SystemBase
     {
         private EntityQuery mapQuery;
         protected override void OnCreate()
@@ -25,13 +24,13 @@ namespace LazyGameDevZA.RogueDOTS.Systems
             this.RequireSingletonForUpdate<RunState>();
         }
 
-        protected override JobHandle OnUpdate(JobHandle inputDeps)
+        protected override void OnUpdate()
         {
             var runState = this.GetSingleton<RunState>();
 
             if(runState != RunState.State.MonsterTurn)
             {
-                return default;
+                return;
             }
             
             var playerPosition = this.GetSingleton<PlayerPosition>();
@@ -69,8 +68,6 @@ namespace LazyGameDevZA.RogueDOTS.Systems
 
             ecb.Playback(this.EntityManager);
             ecb.Dispose();
-
-            return default;
         }
     }
 }

@@ -6,6 +6,7 @@ using Unity.Collections;
 using Unity.Entities;
 using static Unity.Mathematics.math;
 using int2 = Unity.Mathematics.int2;
+using Tile = LazyGameDevZA.RogueDOTS.Components.Tile;
 
 namespace LazyGameDevZA.RogueDOTS
 {
